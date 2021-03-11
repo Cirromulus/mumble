@@ -225,11 +225,18 @@ AudioInput::AudioInput() : opusBuffer(Global::get().s.iFramesPerPacket * (SAMPLE
 #ifdef USE_OPUS
 	oCodec = Global::get().oCodec;
 	if (oCodec) {
+		useInputChannels = 1;
+
 		if (bAllowLowDelay && iAudioQuality >= 64000) { // > 64 kbit/s bitrate and low delay allowed
 			opusState = oCodec->opus_encoder_create(SAMPLE_RATE, 1, OPUS_APPLICATION_RESTRICTED_LOWDELAY, nullptr);
 			qWarning("AudioInput: Opus encoder set for low delay");
 		} else if (iAudioQuality >= 32000) { // > 32 kbit/s bitrate
-			opusState = oCodec->opus_encoder_create(SAMPLE_RATE, 1, OPUS_APPLICATION_AUDIO, nullptr);
+			//if on HQ, allow stereo transmission
+			if (iMicChannels > 1) {
+				useInputChannels = 2;
+				qWarning("Using two channels!");
+			}
+			opusState = oCodec->opus_encoder_create(SAMPLE_RATE, useInputChannels, OPUS_APPLICATION_AUDIO, nullptr);
 			qWarning("AudioInput: Opus encoder set for high quality speech");
 		} else {
 			opusState = oCodec->opus_encoder_create(SAMPLE_RATE, 1, OPUS_APPLICATION_VOIP, nullptr);
@@ -322,6 +329,8 @@ bool AudioInput::isTransmitting() const {
 	return bPreviousVoice;
 };
 
+
+//TODO: Make this templated
 #define IN_MIXER_FLOAT(channels)                                                                             \
 	static void inMixerFloat##channels(float *RESTRICT buffer, const void *RESTRICT ipt, unsigned int nsamp, \
 									   unsigned int N, quint64 mask) {                                       \
@@ -351,6 +360,18 @@ bool AudioInput::isTransmitting() const {
 			buffer[i] = v * m;                                                                               \
 		}                                                                                                    \
 	}
+
+template <typename T>
+static void twoin2Mixer(float *RESTRICT buffer, const void *RESTRICT ipt, unsigned int nsamp, 
+			unsigned int N, quint64 mask) {
+	const T *RESTRICT input = reinterpret_cast< const T * >(ipt);
+	Q_UNUSED(N);
+	Q_UNUSED(mask);
+	for (unsigned int i = 0; i < nsamp; ++i) {
+		buffer[i] = input[i];
+	}
+}
+
 
 static void inMixerFloatMask(float *RESTRICT buffer, const void *RESTRICT ipt, unsigned int nsamp, unsigned int N,
 							 quint64 mask) {
@@ -441,7 +462,12 @@ AudioInput::inMixerFunc AudioInput::chooseMixer(const unsigned int nchan, Sample
 				r = inMixerFloat1;
 				break;
 			case 2:
-				r = inMixerFloat2;
+				if (useInputChannels == 2) {
+					qWarning("Using two 2in2 float mixer");
+					r = twoin2Mixer< float >;
+				}
+				else
+					r = inMixerFloat2;
 				break;
 			case 3:
 				r = inMixerFloat3;
@@ -471,7 +497,12 @@ AudioInput::inMixerFunc AudioInput::chooseMixer(const unsigned int nchan, Sample
 				r = inMixerShort1;
 				break;
 			case 2:
-				r = inMixerShort2;
+				if (useInputChannels == 2) {
+					qWarning("Using two 2in2 short mixer");
+					r = twoin2Mixer< short >;
+				}
+				else
+					r = inMixerShort2;
 				break;
 			case 3:
 				r = inMixerShort3;
@@ -556,6 +587,8 @@ void AudioInput::addMic(const void *data, unsigned int nsamp) {
 		const unsigned int left = qMin(nsamp, iMicLength - iMicFilled);
 
 		// Append mix into pfMicInput frame buffer (converts 16bit pcm->float if necessary)
+		// TODO: HEy here FIXME
+		// output, input, size
 		imfMic(pfMicInput + iMicFilled, data, left, iMicChannels, uiMicChannelMask);
 
 		iMicFilled += left;
@@ -1176,7 +1209,7 @@ void AudioInput::encodeAudioFrame(AudioChunk chunk) {
 
 			Q_ASSERT(iBufferedFrames == iAudioFrames);
 
-			len = encodeOpusFrame(&opusBuffer[0], iBufferedFrames * iFrameSize, buffer);
+			len = encodeOpusFrame(&opusBuffer[0], useInputChannels * iBufferedFrames * iFrameSize, buffer);
 			opusBuffer.clear();
 			if (len <= 0) {
 				iBitrate = 0;

@@ -143,7 +143,7 @@ public:
 	/// Check that given combination of echoOption and outputSystem combination is suitable for echo cancellation
 	virtual bool canEcho(EchoCancelOptionID echoOptionId, const QString &outputSystem) const = 0;
 	virtual bool canExclusive() const;
-
+	
 	/**
 	 * Check if Mumble's microphone access has been denied by the OS.
 	 * Both Windows and macOS have builtin privacy safeguards that display a message asking for users'
@@ -205,6 +205,7 @@ protected:
 	quint64 uiMicChannelMask, uiEchoChannelMask;
 
 	bool bEchoMulti;
+	unsigned int useInputChannels;
 	Settings::NoiseCancel noiseCancel;
 	static const unsigned int iSampleRate = SAMPLE_RATE;
 	static const int iFrameSize           = SAMPLE_RATE / 100;

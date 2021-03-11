@@ -1,0 +1,29 @@
+PROTOBUF_ROOT D:/Reposhit/protobuf_install
+Protobuf_SRC_ROOT_FOLDER D:/Reposhit/protobuf
+SndFile_DIR D:/Reposhit/libsndfile-1.0.31-win64/cmake
+
+cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_NUMBER=31337 -Dxboxinput=False -Dzeroconf=False -Dserver=False ..
+
+
+Add include boost
+add zusätzliche abhängigkeiten crypt32.lib Ws2_32.lib
+
+
+static
+######
+
+cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_NUMBER=31337 -Dxboxinput=False -Dzeroconf=False -Dserver=False -Dstatic=True ..
+
+zusätzliche abhängigkeiten  gelöscht: 
+C:\Qt\5.15.2\msvc2019_64\plugins\iconengines\qsvgicon.dll
+C:\Qt\5.15.2\msvc2019_64\plugins\imageformats\qsvg.dll
+C:\Qt\5.15.2\msvc2019_64\plugins\platforms\qwindows.dll
+
+
+instructed
+##########
+
+
+cmake -G "Ninja" "-DVCPKG_TARGET_TRIPLET=x64-windows-static-md" "-Dstatic=ON" "-DCMAKE_TOOLCHAIN_FILE=D:/vcpkg/scripts/buildsystems/vcpkg.cmake" "-DIce_HOME=D:/vcpkg/installed/x64-windows-static-md" "-DCMAKE_BUILD_TYPE=Release" -DBUILD_NUMBER=31337 -Dserver=False  ..
+
+cmake -G "Ninja" "-DVCPKG_TARGET_TRIPLET=x64-windows-static-md" "-Dstatic=ON" "-DCMAKE_TOOLCHAIN_FILE=D:/vcpkg/scripts/buildsystems/vcpkg.cmake" "-DIce_HOME=D:/vcpkg/installed/x64-windows-static-md" "-DCMAKE_BUILD_TYPE=Debug"  -Dzeroconf=False -DBUILD_NUMBER=31337 -Dserver=False  ..
