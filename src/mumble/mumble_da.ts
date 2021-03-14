@@ -2585,147 +2585,131 @@ Er du sikker på du vil erstatte dit certifikat?
     <name>ChanACL</name>
     <message>
         <source>None</source>
-        <translation>Ingen</translation>
+        <translation type="vanished">Ingen</translation>
     </message>
     <message>
         <source>Traverse</source>
-        <translation>Gennemse</translation>
+        <translation type="vanished">Gennemse</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>Gå ind i</translation>
+        <translation type="vanished">Gå ind i</translation>
     </message>
     <message>
         <source>Speak</source>
-        <translation>Tal</translation>
+        <translation type="vanished">Tal</translation>
     </message>
     <message>
         <source>Mute/Deafen</source>
-        <translation>Deaktivér mikrofon/lyd</translation>
+        <translation type="vanished">Deaktivér mikrofon/lyd</translation>
     </message>
     <message>
         <source>Make channel</source>
-        <translation>Lav kanal</translation>
+        <translation type="vanished">Lav kanal</translation>
     </message>
     <message>
         <source>Make temporary</source>
-        <translation>Lav midlertidig</translation>
+        <translation type="vanished">Lav midlertidig</translation>
     </message>
     <message>
         <source>Link channel</source>
-        <translation>Sammenkæd kanal</translation>
+        <translation type="vanished">Sammenkæd kanal</translation>
     </message>
     <message>
         <source>This represents no privileges.</source>
-        <translation>Dette repræsenterer ingen privilegier.</translation>
+        <translation type="vanished">Dette repræsenterer ingen privilegier.</translation>
     </message>
     <message>
         <source>This represents total access to the channel, including the ability to change group and ACL information. This privilege implies all other privileges.</source>
-        <translation>Dette repræsenterer total adgang til kanalen, inklusiv muligheden for at ændre grupper og ACL-information. Dette privilegie indebærer alle andre privilegier.</translation>
+        <translation type="vanished">Dette repræsenterer total adgang til kanalen, inklusiv muligheden for at ændre grupper og ACL-information. Dette privilegie indebærer alle andre privilegier.</translation>
     </message>
     <message>
         <source>This represents the permission to traverse the channel. If a user is denied this privilege, he will be unable to access this channel and any sub-channels in any way, regardless of other permissions in the sub-channels.</source>
-        <translation>Dette repræsenterer rettigheden til at gennemse kanalen. Hvis en bruger er nægtet dette privilegie, vil brugeren ikke være i stand til at tilgå denne kanal og nogen underkanaler på nogen måde usanset andre rettigheder i underkanalerne.</translation>
+        <translation type="vanished">Dette repræsenterer rettigheden til at gennemse kanalen. Hvis en bruger er nægtet dette privilegie, vil brugeren ikke være i stand til at tilgå denne kanal og nogen underkanaler på nogen måde usanset andre rettigheder i underkanalerne.</translation>
     </message>
     <message>
         <source>This represents the permission to join the channel. If you have a hierarchical channel structure, you might want to give everyone Traverse, but restrict Enter in the root of your hierarchy.</source>
-        <translation>Dette repræsenterer rettigheden til at gå ind i kanalen. Hvis du har en hierarkisk-kanalstruktur, vil du måske have gavn af at give alle &lt;i&gt;Gennemse&lt;/i&gt;, men begrænse &lt;i&gt;Gå ind i&lt;/i&gt; for rod-kanalen i hierarkiet.</translation>
+        <translation type="vanished">Dette repræsenterer rettigheden til at gå ind i kanalen. Hvis du har en hierarkisk-kanalstruktur, vil du måske have gavn af at give alle &lt;i&gt;Gennemse&lt;/i&gt;, men begrænse &lt;i&gt;Gå ind i&lt;/i&gt; for rod-kanalen i hierarkiet.</translation>
     </message>
     <message>
         <source>This represents the permission to speak in a channel. Users without this privilege will be suppressed by the server (seen as muted), and will be unable to speak until they are unmuted by someone with the appropriate privileges.</source>
-        <translation>Dette repræsenterer rettigheden til at tale i en kanal. Serveren vil deaktivere mikrofonen for brugere uden dette privilegie, og de vil være ude af stand til at snakke, indtil nogen med de fornødne privilegier aktiverer deres mikrofon igen.</translation>
+        <translation type="vanished">Dette repræsenterer rettigheden til at tale i en kanal. Serveren vil deaktivere mikrofonen for brugere uden dette privilegie, og de vil være ude af stand til at snakke, indtil nogen med de fornødne privilegier aktiverer deres mikrofon igen.</translation>
     </message>
     <message>
         <source>This represents the permission to whisper to this channel from the outside. This works exactly like the &lt;i&gt;speak&lt;/i&gt; privilege, but applies to packets spoken with the Whisper key held down. This may be used to broadcast to a hierarchy of channels without linking.</source>
-        <translation>Dette repræsenterer rettigheden til at hviske til denne kanal udefra. Dette virker præcis ligesom &lt;i&gt;Tal&lt;/i&gt;-privilegiet, men gælder for tale der bliver sendt ved hjælp af hviske-knappen. Dette kan bruges til at tale til et hierarki af kanaler uden at sammenkæde dem.</translation>
+        <translation type="vanished">Dette repræsenterer rettigheden til at hviske til denne kanal udefra. Dette virker præcis ligesom &lt;i&gt;Tal&lt;/i&gt;-privilegiet, men gælder for tale der bliver sendt ved hjælp af hviske-knappen. Dette kan bruges til at tale til et hierarki af kanaler uden at sammenkæde dem.</translation>
     </message>
     <message>
         <source>This represents the permission to mute and deafen other users. Once muted, a user will stay muted until he is unmuted by another privileged user or reconnects to the server.</source>
-        <translation>Dette repræsenterer rettigheden til at deaktivere andre brugeres lyd og mikrofon. Når en brugers mikrofon først er blevet deaktiveret, vil brugeren være ude af stand til at snakke, indtil nogen med de fornødne privilegier aktiverer brugerens mikrofon igen, eller hvis brugeren opretter forbindelse til serveren igen.</translation>
+        <translation type="vanished">Dette repræsenterer rettigheden til at deaktivere andre brugeres lyd og mikrofon. Når en brugers mikrofon først er blevet deaktiveret, vil brugeren være ude af stand til at snakke, indtil nogen med de fornødne privilegier aktiverer brugerens mikrofon igen, eller hvis brugeren opretter forbindelse til serveren igen.</translation>
     </message>
     <message>
         <source>This represents the permission to move a user to another channel or kick him from the server. To actually move the user, either the moving user must have Move privileges in the destination channel, or the user must normally be allowed to enter the channel. Users with this privilege can move users into channels the target user normally wouldn&apos;t have permission to enter.</source>
-        <translation>Dette repræsenterer rettigheden til at flytte en bruger til en anden kanal eller kicke brugeren fra serveren. For rent faktisk at flytte brugeren, skal brugeren der flytter den anden bruger have flyt-privilegiet i destinationskanalen, eller brugeren, der bliver flyttet, skal have rettigheder til at gå ind i destinationskanalen. Brugere med dette privilegium kan flytte brugere ind i kanaler, som brugeren, der bliver flyttet, normalt ikke har rettigheder til at gå ind i.</translation>
+        <translation type="vanished">Dette repræsenterer rettigheden til at flytte en bruger til en anden kanal eller kicke brugeren fra serveren. For rent faktisk at flytte brugeren, skal brugeren der flytter den anden bruger have flyt-privilegiet i destinationskanalen, eller brugeren, der bliver flyttet, skal have rettigheder til at gå ind i destinationskanalen. Brugere med dette privilegium kan flytte brugere ind i kanaler, som brugeren, der bliver flyttet, normalt ikke har rettigheder til at gå ind i.</translation>
     </message>
     <message>
         <source>This represents the permission to make sub-channels. The user making the sub-channel will be added to the admin group of the sub-channel.</source>
-        <translation>Dette repræsenterer rettigheden til at lave underkanaler. Brugeren, der laver underkanaler, vil blive tilføjet til admin-gruppen i underkanalen.</translation>
+        <translation type="vanished">Dette repræsenterer rettigheden til at lave underkanaler. Brugeren, der laver underkanaler, vil blive tilføjet til admin-gruppen i underkanalen.</translation>
     </message>
     <message>
         <source>This represents the permission to make a temporary subchannel. The user making the sub-channel will be added to the admin group of the sub-channel. Temporary channels are not stored and disappear when the last user leaves.</source>
-        <translation>Dette repræsenterer rettigheden til at lave en midlertidig underkanal. Brugeren, der laver underkanaler, vil blive tilføjet til admin-gruppen i underkanalen. Midlertidige kanaler er ikke gemt og forsvinder, når den sidste bruger forlader kanelen.</translation>
+        <translation type="vanished">Dette repræsenterer rettigheden til at lave en midlertidig underkanal. Brugeren, der laver underkanaler, vil blive tilføjet til admin-gruppen i underkanalen. Midlertidige kanaler er ikke gemt og forsvinder, når den sidste bruger forlader kanelen.</translation>
     </message>
     <message>
         <source>This represents the permission to link channels. Users in linked channels hear each other, as long as the speaking user has the &lt;i&gt;speak&lt;/i&gt; privilege in the channel of the listener. You need the link privilege in both channels to create a link, but just in either channel to remove it.</source>
-        <translation>Dette repræsenterer rettigheden til at sammenkæde kanaler. Brugere i sammenkædede kanaler kan høre hinanden, så længe den snakkende bruger har &lt;i&gt;tale&lt;/i&gt;-privilegiet i kanalen med lytterne. Du skal have sammenkæd-privilegiet i begge kanaler for at oprette en sammenkædning, men kun i én af kanalerne for at fjerne sammenkædningen.</translation>
+        <translation type="vanished">Dette repræsenterer rettigheden til at sammenkæde kanaler. Brugere i sammenkædede kanaler kan høre hinanden, så længe den snakkende bruger har &lt;i&gt;tale&lt;/i&gt;-privilegiet i kanalen med lytterne. Du skal have sammenkæd-privilegiet i begge kanaler for at oprette en sammenkædning, men kun i én af kanalerne for at fjerne sammenkædningen.</translation>
     </message>
     <message>
         <source>This represents the permission to write text messages to other users in this channel.</source>
-        <translation>Dette repræsenterer rettigheden til at skrive tekstbeskeder til andre brugere i denne kanal.</translation>
+        <translation type="vanished">Dette repræsenterer rettigheden til at skrive tekstbeskeder til andre brugere i denne kanal.</translation>
     </message>
     <message>
         <source>This represents the permission to forcibly remove users from the server.</source>
-        <translation>Dette repræsenterer rettigheden til at tvangsfjerne brugere fra serveren.</translation>
+        <translation type="vanished">Dette repræsenterer rettigheden til at tvangsfjerne brugere fra serveren.</translation>
     </message>
     <message>
         <source>This represents the permission to permanently remove users from the server.</source>
-        <translation>Dette repræsenterer rettigheden til permanent at fjerne brugere fra serveren.</translation>
+        <translation type="vanished">Dette repræsenterer rettigheden til permanent at fjerne brugere fra serveren.</translation>
     </message>
     <message>
         <source>This represents the permission to register and unregister users on the server.</source>
-        <translation>Dette repræsenterer rettigheden til at registrere og fjerne registreringen af brugere på serveren.</translation>
+        <translation type="vanished">Dette repræsenterer rettigheden til at registrere og fjerne registreringen af brugere på serveren.</translation>
     </message>
     <message>
         <source>This represents the permission to register oneself on the server.</source>
-        <translation>Dette repræsenterer rettigheden til at registrere sig selv på serveren.</translation>
+        <translation type="vanished">Dette repræsenterer rettigheden til at registrere sig selv på serveren.</translation>
     </message>
     <message>
         <source>Whisper</source>
-        <translation>Hvisk</translation>
+        <translation type="vanished">Hvisk</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>Flyt</translation>
+        <translation type="vanished">Flyt</translation>
     </message>
     <message>
         <source>Text message</source>
-        <translation>Tekstbeskeder</translation>
+        <translation type="vanished">Tekstbeskeder</translation>
     </message>
     <message>
         <source>Kick</source>
-        <translation>Kick</translation>
+        <translation type="vanished">Kick</translation>
     </message>
     <message>
         <source>Ban</source>
-        <translation>Bandlys</translation>
+        <translation type="vanished">Bandlys</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation>Registrér bruger</translation>
+        <translation type="vanished">Registrér bruger</translation>
     </message>
     <message>
         <source>Register Self</source>
-        <translation>Registrér selv</translation>
+        <translation type="vanished">Registrér selv</translation>
     </message>
     <message>
         <source>Write ACL</source>
-        <translation>Skriv ACL</translation>
-    </message>
-    <message>
-        <source>This represents the permission to use the listen-feature allowing to listen to a channel without being in it.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Listen</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to reset the comment or avatar of a user.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reset User Content</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">Skriv ACL</translation>
     </message>
 </context>
 <context>
@@ -3435,17 +3419,6 @@ Without this option enabled, using Mumble&apos;s global shortcuts in privileged 
     <name>GlobalShortcutEngine</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>GlobalShortcutMac</name>
-    <message>
-        <source>Mouse</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Keyboard</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7193,10 +7166,6 @@ For at opgradere disse filer til deres nyeste version, klik på knappen nedenfor
         <source>Mumble failed to restart itself. Please restart it manually.</source>
         <translation>Mumble kunne ikke selv genstarte. Genstart det venligst manuelt.</translation>
     </message>
-    <message>
-        <source>Mumble is currently connected to a server</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QObject</name>
@@ -7299,18 +7268,10 @@ See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;th
     </message>
     <message>
         <source>Default Device</source>
-        <translation type="unfinished">Standard enhed</translation>
+        <translation type="obsolete">Standard enhed</translation>
     </message>
     <message>
         <source>This option works best when using built-in microphone and speaker.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied. Please allow Mumble to use the microphone by changing the settings in System Preferences -&gt; Security &amp; Privacy -&gt; Privacy -&gt; Microphone.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied due to system restrictions. You will not be ableto use the microphone in this session.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

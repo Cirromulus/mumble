@@ -2583,147 +2583,147 @@ Você tem certeza de que quer substituir o seu certificado?
     <name>ChanACL</name>
     <message>
         <source>None</source>
-        <translation>Nenhum</translation>
+        <translation type="vanished">Nenhum</translation>
     </message>
     <message>
         <source>Traverse</source>
-        <translation>Percorrer</translation>
+        <translation type="vanished">Percorrer</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>Entrar</translation>
+        <translation type="vanished">Entrar</translation>
     </message>
     <message>
         <source>Speak</source>
-        <translation>Falar</translation>
+        <translation type="vanished">Falar</translation>
     </message>
     <message>
         <source>Mute/Deafen</source>
-        <translation>Emudecer/Ensurdecer</translation>
+        <translation type="vanished">Emudecer/Ensurdecer</translation>
     </message>
     <message>
         <source>Make channel</source>
-        <translation>Criar canal</translation>
+        <translation type="vanished">Criar canal</translation>
     </message>
     <message>
         <source>Make temporary</source>
-        <translation>Criar temporário</translation>
+        <translation type="vanished">Criar temporário</translation>
     </message>
     <message>
         <source>Link channel</source>
-        <translation>Vincular canal</translation>
+        <translation type="vanished">Vincular canal</translation>
     </message>
     <message>
         <source>This represents no privileges.</source>
-        <translation>No representa nenhum privilégio.</translation>
+        <translation type="vanished">No representa nenhum privilégio.</translation>
     </message>
     <message>
         <source>This represents total access to the channel, including the ability to change group and ACL information. This privilege implies all other privileges.</source>
-        <translation>Representa acesso total ao canal, incluindo a habilidade de mudar informações de grupo e LCA. Este privilégio implica todos outros privilégios.</translation>
+        <translation type="vanished">Representa acesso total ao canal, incluindo a habilidade de mudar informações de grupo e LCA. Este privilégio implica todos outros privilégios.</translation>
     </message>
     <message>
         <source>This represents the permission to traverse the channel. If a user is denied this privilege, he will be unable to access this channel and any sub-channels in any way, regardless of other permissions in the sub-channels.</source>
-        <translation>Representa a permissão de percorrer o canal. Se esse privilégio é negado a uma usuária, ela não conseguirá acessar o canal ou qualquer subcanal de modo algum, independentemente de outras permissões nos subcanais.</translation>
+        <translation type="vanished">Representa a permissão de percorrer o canal. Se esse privilégio é negado a uma usuária, ela não conseguirá acessar o canal ou qualquer subcanal de modo algum, independentemente de outras permissões nos subcanais.</translation>
     </message>
     <message>
         <source>This represents the permission to join the channel. If you have a hierarchical channel structure, you might want to give everyone Traverse, but restrict Enter in the root of your hierarchy.</source>
-        <translation>Representa a permissão de entrar no canal. Se você possui uma estrutura hierárquica de canais, você pode querer conceder Percorrer para todas as pessoas mas, restringir Entrar na raiz de sua hierarquia.</translation>
+        <translation type="vanished">Representa a permissão de entrar no canal. Se você possui uma estrutura hierárquica de canais, você pode querer conceder Percorrer para todas as pessoas mas, restringir Entrar na raiz de sua hierarquia.</translation>
     </message>
     <message>
         <source>This represents the permission to speak in a channel. Users without this privilege will be suppressed by the server (seen as muted), and will be unable to speak until they are unmuted by someone with the appropriate privileges.</source>
-        <translation>Representa a permissão de falar em um canal. Usuárias sem este privilégio serão suprimidas pelo servidor (vista como muda), e serão incapazes de falar até serem desemudecidas por alguém com os privilégios apropriados.</translation>
+        <translation type="vanished">Representa a permissão de falar em um canal. Usuárias sem este privilégio serão suprimidas pelo servidor (vista como muda), e serão incapazes de falar até serem desemudecidas por alguém com os privilégios apropriados.</translation>
     </message>
     <message>
         <source>This represents the permission to whisper to this channel from the outside. This works exactly like the &lt;i&gt;speak&lt;/i&gt; privilege, but applies to packets spoken with the Whisper key held down. This may be used to broadcast to a hierarchy of channels without linking.</source>
-        <translation>Representa a permissão de sussurrar para esse canal a partir de fora. Isto funciona exatamente como o privilégio &lt;i&gt;falar&lt;/i&gt;, mas se aplica a pacotes falados com a tecla de Sussurro pressionada. Isso pode ser usado para transmitir para uma hierarquia de canais sem vinculá-los.</translation>
+        <translation type="vanished">Representa a permissão de sussurrar para esse canal a partir de fora. Isto funciona exatamente como o privilégio &lt;i&gt;falar&lt;/i&gt;, mas se aplica a pacotes falados com a tecla de Sussurro pressionada. Isso pode ser usado para transmitir para uma hierarquia de canais sem vinculá-los.</translation>
     </message>
     <message>
         <source>This represents the permission to mute and deafen other users. Once muted, a user will stay muted until he is unmuted by another privileged user or reconnects to the server.</source>
-        <translation>Representa a permissão de emudecer e ensurdecer outras usuárias. Uma vez emudecida, uma usuária permanecerá assim até ser desemudecida por usuária com privilégios ou, ao reconectar com o servidor.</translation>
+        <translation type="vanished">Representa a permissão de emudecer e ensurdecer outras usuárias. Uma vez emudecida, uma usuária permanecerá assim até ser desemudecida por usuária com privilégios ou, ao reconectar com o servidor.</translation>
     </message>
     <message>
         <source>This represents the permission to move a user to another channel or kick him from the server. To actually move the user, either the moving user must have Move privileges in the destination channel, or the user must normally be allowed to enter the channel. Users with this privilege can move users into channels the target user normally wouldn&apos;t have permission to enter.</source>
-        <translation>Representa a permissão de mover uma usuária para outro canal ou expulsá-la do servidor. Para realmente mover a usuária, ou a usuária deve possuir o privilégio Mover no canal destino, ou a usuária deve ser normalmente permitida de entrar no canal. Usuárias com este privilégio podem mover usuárias para canais onde a usuária normalmente não teria permissão para entrar.</translation>
+        <translation type="vanished">Representa a permissão de mover uma usuária para outro canal ou expulsá-la do servidor. Para realmente mover a usuária, ou a usuária deve possuir o privilégio Mover no canal destino, ou a usuária deve ser normalmente permitida de entrar no canal. Usuárias com este privilégio podem mover usuárias para canais onde a usuária normalmente não teria permissão para entrar.</translation>
     </message>
     <message>
         <source>This represents the permission to make sub-channels. The user making the sub-channel will be added to the admin group of the sub-channel.</source>
-        <translation>Representa a permissão de criar subcanais. A usuária criando o subcanal vai ser adicionada ao grupo admin do subcanal.</translation>
+        <translation type="vanished">Representa a permissão de criar subcanais. A usuária criando o subcanal vai ser adicionada ao grupo admin do subcanal.</translation>
     </message>
     <message>
         <source>This represents the permission to make a temporary subchannel. The user making the sub-channel will be added to the admin group of the sub-channel. Temporary channels are not stored and disappear when the last user leaves.</source>
-        <translation>Representa a permissão de criar um subcanal temporário. A usuária que criar o subcanal será adicionada ao grupo admin do subcanal. Canais temporários não são armazenados, e desaparecem quando a última usuária sair dele.</translation>
+        <translation type="vanished">Representa a permissão de criar um subcanal temporário. A usuária que criar o subcanal será adicionada ao grupo admin do subcanal. Canais temporários não são armazenados, e desaparecem quando a última usuária sair dele.</translation>
     </message>
     <message>
         <source>This represents the permission to link channels. Users in linked channels hear each other, as long as the speaking user has the &lt;i&gt;speak&lt;/i&gt; privilege in the channel of the listener. You need the link privilege in both channels to create a link, but just in either channel to remove it.</source>
-        <translation>Representa a permissão de vincular canais. Usuárias em canais vinculados podem escutar umas as outras, desde que a usuária falando possua privilégio &lt;i&gt;falar&lt;/i&gt; no canal da ouvinte. Você precisa do privilégio vincular em ambos os canais criar um vínculo, mas apenas em um deles para desfazer.</translation>
+        <translation type="vanished">Representa a permissão de vincular canais. Usuárias em canais vinculados podem escutar umas as outras, desde que a usuária falando possua privilégio &lt;i&gt;falar&lt;/i&gt; no canal da ouvinte. Você precisa do privilégio vincular em ambos os canais criar um vínculo, mas apenas em um deles para desfazer.</translation>
     </message>
     <message>
         <source>This represents the permission to write text messages to other users in this channel.</source>
-        <translation>Representa a permissão de escrever mensagens de texto para outras usuárias nesse canal.</translation>
+        <translation type="vanished">Representa a permissão de escrever mensagens de texto para outras usuárias nesse canal.</translation>
     </message>
     <message>
         <source>This represents the permission to forcibly remove users from the server.</source>
-        <translation>Representa a permissão de remover usuários do servidor à força.</translation>
+        <translation type="vanished">Representa a permissão de remover usuários do servidor à força.</translation>
     </message>
     <message>
         <source>This represents the permission to permanently remove users from the server.</source>
-        <translation>Representa a permissão de remover usuários permanentemente do servidor.</translation>
+        <translation type="vanished">Representa a permissão de remover usuários permanentemente do servidor.</translation>
     </message>
     <message>
         <source>This represents the permission to register and unregister users on the server.</source>
-        <translation>Representa a permissão de registrar e eliminar usuários do servidor.</translation>
+        <translation type="vanished">Representa a permissão de registrar e eliminar usuários do servidor.</translation>
     </message>
     <message>
         <source>This represents the permission to register oneself on the server.</source>
-        <translation>Representa a permissão de se registrar no servidor.</translation>
+        <translation type="vanished">Representa a permissão de se registrar no servidor.</translation>
     </message>
     <message>
         <source>Whisper</source>
-        <translation>Sussurrar</translation>
+        <translation type="vanished">Sussurrar</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>Mover</translation>
+        <translation type="vanished">Mover</translation>
     </message>
     <message>
         <source>Text message</source>
-        <translation>Mensagem de texto</translation>
+        <translation type="vanished">Mensagem de texto</translation>
     </message>
     <message>
         <source>Kick</source>
-        <translation>Expulsar</translation>
+        <translation type="vanished">Expulsar</translation>
     </message>
     <message>
         <source>Ban</source>
-        <translation>Banir</translation>
+        <translation type="vanished">Banir</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation>Registrar usuário</translation>
+        <translation type="vanished">Registrar usuário</translation>
     </message>
     <message>
         <source>Register Self</source>
-        <translation>Registrar-se</translation>
+        <translation type="vanished">Registrar-se</translation>
     </message>
     <message>
         <source>Write ACL</source>
-        <translation>Escrever LCA</translation>
+        <translation type="vanished">Escrever LCA</translation>
     </message>
     <message>
         <source>This represents the permission to use the listen-feature allowing to listen to a channel without being in it.</source>
-        <translation>Isso representa a permissão para usar o recurso de ouvinte, permitindo ouvir um canal sem se juntar a ele.</translation>
+        <translation type="vanished">Isso representa a permissão para usar o recurso de ouvinte, permitindo ouvir um canal sem se juntar a ele.</translation>
     </message>
     <message>
         <source>Listen</source>
-        <translation>Ouvir</translation>
+        <translation type="vanished">Ouvir</translation>
     </message>
     <message>
         <source>This represents the permission to reset the comment or avatar of a user.</source>
-        <translation>Isso representa a permissão de resetar o comentário ou avatar de uma usuária</translation>
+        <translation type="vanished">Isso representa a permissão de resetar o comentário ou avatar de uma usuária</translation>
     </message>
     <message>
         <source>Reset User Content</source>
-        <translation>Resetar Conteúdo de Usuárias</translation>
+        <translation type="vanished">Resetar Conteúdo de Usuárias</translation>
     </message>
 </context>
 <context>
@@ -3446,11 +3446,11 @@ Sem essa opção ativada, usar os atalhos globais do Mumble em aplicações priv
     <name>GlobalShortcutMac</name>
     <message>
         <source>Mouse</source>
-        <translation type="unfinished">Mouse</translation>
+        <translation type="obsolete">Mouse</translation>
     </message>
     <message>
         <source>Keyboard</source>
-        <translation type="unfinished">Teclado</translation>
+        <translation type="obsolete">Teclado</translation>
     </message>
 </context>
 <context>
@@ -7247,10 +7247,6 @@ Para atualizar estes arquivos para suas últimas versões, clique no botão abai
         <source>Mumble failed to restart itself. Please restart it manually.</source>
         <translation>Mumble falhou em reiniciar. Por favor reinicie-o manualmente.</translation>
     </message>
-    <message>
-        <source>Mumble is currently connected to a server</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QObject</name>
@@ -7354,18 +7350,10 @@ Consulte a &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot
     </message>
     <message>
         <source>Default Device</source>
-        <translation type="unfinished">Dispositivo padrão</translation>
+        <translation type="obsolete">Dispositivo padrão</translation>
     </message>
     <message>
         <source>This option works best when using built-in microphone and speaker.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied. Please allow Mumble to use the microphone by changing the settings in System Preferences -&gt; Security &amp; Privacy -&gt; Privacy -&gt; Microphone.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied due to system restrictions. You will not be ableto use the microphone in this session.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

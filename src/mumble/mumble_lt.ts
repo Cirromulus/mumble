@@ -2575,147 +2575,39 @@ Ar tikrai norite pakeisti savo liudijimą?
     <name>ChanACL</name>
     <message>
         <source>None</source>
-        <translation type="unfinished">Nėra</translation>
-    </message>
-    <message>
-        <source>Traverse</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enter</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Speak</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Mute/Deafen</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Nėra</translation>
     </message>
     <message>
         <source>Make channel</source>
-        <translation>Kurti kanalą</translation>
-    </message>
-    <message>
-        <source>Make temporary</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Link channel</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents no privileges.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents total access to the channel, including the ability to change group and ACL information. This privilege implies all other privileges.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to traverse the channel. If a user is denied this privilege, he will be unable to access this channel and any sub-channels in any way, regardless of other permissions in the sub-channels.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to join the channel. If you have a hierarchical channel structure, you might want to give everyone Traverse, but restrict Enter in the root of your hierarchy.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to speak in a channel. Users without this privilege will be suppressed by the server (seen as muted), and will be unable to speak until they are unmuted by someone with the appropriate privileges.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to whisper to this channel from the outside. This works exactly like the &lt;i&gt;speak&lt;/i&gt; privilege, but applies to packets spoken with the Whisper key held down. This may be used to broadcast to a hierarchy of channels without linking.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to mute and deafen other users. Once muted, a user will stay muted until he is unmuted by another privileged user or reconnects to the server.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to move a user to another channel or kick him from the server. To actually move the user, either the moving user must have Move privileges in the destination channel, or the user must normally be allowed to enter the channel. Users with this privilege can move users into channels the target user normally wouldn&apos;t have permission to enter.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to make sub-channels. The user making the sub-channel will be added to the admin group of the sub-channel.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to make a temporary subchannel. The user making the sub-channel will be added to the admin group of the sub-channel. Temporary channels are not stored and disappear when the last user leaves.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to link channels. Users in linked channels hear each other, as long as the speaking user has the &lt;i&gt;speak&lt;/i&gt; privilege in the channel of the listener. You need the link privilege in both channels to create a link, but just in either channel to remove it.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to write text messages to other users in this channel.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to forcibly remove users from the server.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to permanently remove users from the server.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to register and unregister users on the server.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to register oneself on the server.</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">Kurti kanalą</translation>
     </message>
     <message>
         <source>Whisper</source>
-        <translation type="unfinished">Šnabždesys</translation>
+        <translation type="obsolete">Šnabždesys</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>Perkelti</translation>
+        <translation type="vanished">Perkelti</translation>
     </message>
     <message>
         <source>Text message</source>
-        <translation type="unfinished">Tekstinė žinutė</translation>
+        <translation type="obsolete">Tekstinė žinutė</translation>
     </message>
     <message>
         <source>Kick</source>
-        <translation>Išmesti</translation>
+        <translation type="vanished">Išmesti</translation>
     </message>
     <message>
         <source>Ban</source>
-        <translation>Uždrausti</translation>
+        <translation type="vanished">Uždrausti</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation>Registruoti naudotoją</translation>
+        <translation type="vanished">Registruoti naudotoją</translation>
     </message>
     <message>
         <source>Register Self</source>
-        <translation>Registruoti save</translation>
-    </message>
-    <message>
-        <source>Write ACL</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to use the listen-feature allowing to listen to a channel without being in it.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Listen</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to reset the comment or avatar of a user.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reset User Content</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">Registruoti save</translation>
     </message>
 </context>
 <context>
@@ -3420,17 +3312,6 @@ Without this option enabled, using Mumble&apos;s global shortcuts in privileged 
     <name>GlobalShortcutEngine</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>GlobalShortcutMac</name>
-    <message>
-        <source>Mouse</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Keyboard</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7170,10 +7051,6 @@ Norėdami naujinti šiuos failus į naujausią versiją, spustelėkite mygtuką 
         <source>Mumble failed to restart itself. Please restart it manually.</source>
         <translation>Programai Mumble nepavyko paleisti savęs iš naujo. Prašome paleisti ją iš naujo rankiniu būdu.</translation>
     </message>
-    <message>
-        <source>Mumble is currently connected to a server</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QObject</name>
@@ -7276,18 +7153,10 @@ See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;th
     </message>
     <message>
         <source>Default Device</source>
-        <translation type="unfinished">Numatytasis įrenginys</translation>
+        <translation type="obsolete">Numatytasis įrenginys</translation>
     </message>
     <message>
         <source>This option works best when using built-in microphone and speaker.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied. Please allow Mumble to use the microphone by changing the settings in System Preferences -&gt; Security &amp; Privacy -&gt; Privacy -&gt; Microphone.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied due to system restrictions. You will not be ableto use the microphone in this session.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -2586,147 +2586,147 @@ Zeker dat je jouw certificaat wilt vervangen?
     <name>ChanACL</name>
     <message>
         <source>None</source>
-        <translation>Geen</translation>
+        <translation type="vanished">Geen</translation>
     </message>
     <message>
         <source>Traverse</source>
-        <translation>Doorkruisen</translation>
+        <translation type="vanished">Doorkruisen</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>Toetreden</translation>
+        <translation type="vanished">Toetreden</translation>
     </message>
     <message>
         <source>Speak</source>
-        <translation>Spreken</translation>
+        <translation type="vanished">Spreken</translation>
     </message>
     <message>
         <source>Mute/Deafen</source>
-        <translation>Dempen/Doven</translation>
+        <translation type="vanished">Dempen/Doven</translation>
     </message>
     <message>
         <source>Make channel</source>
-        <translation>Kanaal maken</translation>
+        <translation type="vanished">Kanaal maken</translation>
     </message>
     <message>
         <source>Make temporary</source>
-        <translation>Tijdelijk maken</translation>
+        <translation type="vanished">Tijdelijk maken</translation>
     </message>
     <message>
         <source>Link channel</source>
-        <translation>Kanaal koppelen</translation>
+        <translation type="vanished">Kanaal koppelen</translation>
     </message>
     <message>
         <source>This represents no privileges.</source>
-        <translation>Geen machtigingen.</translation>
+        <translation type="vanished">Geen machtigingen.</translation>
     </message>
     <message>
         <source>This represents total access to the channel, including the ability to change group and ACL information. This privilege implies all other privileges.</source>
-        <translation>Volledige toegang tot kanaal, inclusief recht om groep- en ACL-informatie te wijzigen. Deze machtiging impliceert alle andere machtigingen.</translation>
+        <translation type="vanished">Volledige toegang tot kanaal, inclusief recht om groep- en ACL-informatie te wijzigen. Deze machtiging impliceert alle andere machtigingen.</translation>
     </message>
     <message>
         <source>This represents the permission to traverse the channel. If a user is denied this privilege, he will be unable to access this channel and any sub-channels in any way, regardless of other permissions in the sub-channels.</source>
-        <translation>Toestemming om kanaal te doorkruisen. Als gebruiker wordt geweigerd, wordt in ieder (↳)-kanaal doorgang onmogelijk (andere ↳-kanaal-rechten onafhankelijk).</translation>
+        <translation type="vanished">Toestemming om kanaal te doorkruisen. Als gebruiker wordt geweigerd, wordt in ieder (↳)-kanaal doorgang onmogelijk (andere ↳-kanaal-rechten onafhankelijk).</translation>
     </message>
     <message>
         <source>This represents the permission to join the channel. If you have a hierarchical channel structure, you might want to give everyone Traverse, but restrict Enter in the root of your hierarchy.</source>
-        <translation>Toestemming kanaal toe te treden. Met hiërarchische kanaalstructuur hebt wil je misschien iedereen laten doorkruisen en toetreden beperken tot hiërarchie-stam.</translation>
+        <translation type="vanished">Toestemming kanaal toe te treden. Met hiërarchische kanaalstructuur hebt wil je misschien iedereen laten doorkruisen en toetreden beperken tot hiërarchie-stam.</translation>
     </message>
     <message>
         <source>This represents the permission to speak in a channel. Users without this privilege will be suppressed by the server (seen as muted), and will be unable to speak until they are unmuted by someone with the appropriate privileges.</source>
-        <translation>Toestemming om in kanaal te spreken. Gebruikers zonder dit recht worden onderdrukt door server (zijnde gedempt); kunnen niet spreken totdat demping wordt opgeheven door bevoegde.</translation>
+        <translation type="vanished">Toestemming om in kanaal te spreken. Gebruikers zonder dit recht worden onderdrukt door server (zijnde gedempt); kunnen niet spreken totdat demping wordt opgeheven door bevoegde.</translation>
     </message>
     <message>
         <source>This represents the permission to whisper to this channel from the outside. This works exactly like the &lt;i&gt;speak&lt;/i&gt; privilege, but applies to packets spoken with the Whisper key held down. This may be used to broadcast to a hierarchy of channels without linking.</source>
-        <translation>Dit weerspiegelt de toestemming om te fluisteren naar dit kanaal van buitenaf. Dit werkt hetzelfde als het &lt;i&gt;spreken&lt;/i&gt;-recht, maar geldt voor spraak waarbij de Fluister-toets ingedrukt werd. Dit kan dienen om naar een hiërarchie van kanalen tegelijk te sturen zonder hiermee te linken.</translation>
+        <translation type="vanished">Dit weerspiegelt de toestemming om te fluisteren naar dit kanaal van buitenaf. Dit werkt hetzelfde als het &lt;i&gt;spreken&lt;/i&gt;-recht, maar geldt voor spraak waarbij de Fluister-toets ingedrukt werd. Dit kan dienen om naar een hiërarchie van kanalen tegelijk te sturen zonder hiermee te linken.</translation>
     </message>
     <message>
         <source>This represents the permission to mute and deafen other users. Once muted, a user will stay muted until he is unmuted by another privileged user or reconnects to the server.</source>
-        <translation>Toestemming om anderen te dempen/doven. Eenmaal gedempt, blijft gedempt tot ontdempt door bevoegde of totdat gebruikers opnieuw met server verbinden.</translation>
+        <translation type="vanished">Toestemming om anderen te dempen/doven. Eenmaal gedempt, blijft gedempt tot ontdempt door bevoegde of totdat gebruikers opnieuw met server verbinden.</translation>
     </message>
     <message>
         <source>This represents the permission to move a user to another channel or kick him from the server. To actually move the user, either the moving user must have Move privileges in the destination channel, or the user must normally be allowed to enter the channel. Users with this privilege can move users into channels the target user normally wouldn&apos;t have permission to enter.</source>
-        <translation>Toestemming om gebruikers naar andere kanalen te verplaatsen of (permanent weg) te schoppen. Om gebruikers te verplaatsen; vereist dat verplaatsende: Verplaatsen-recht heeft (bestemmingkanaal) of gebruiker moet toetreden-kanaalrecht hebben. Gebruikers met dit recht kunnen gebruikers verplaatsen naar kanalen waarin gebruiker (normaal) niet toe mag toetreden.</translation>
+        <translation type="vanished">Toestemming om gebruikers naar andere kanalen te verplaatsen of (permanent weg) te schoppen. Om gebruikers te verplaatsen; vereist dat verplaatsende: Verplaatsen-recht heeft (bestemmingkanaal) of gebruiker moet toetreden-kanaalrecht hebben. Gebruikers met dit recht kunnen gebruikers verplaatsen naar kanalen waarin gebruiker (normaal) niet toe mag toetreden.</translation>
     </message>
     <message>
         <source>This represents the permission to make sub-channels. The user making the sub-channel will be added to the admin group of the sub-channel.</source>
-        <translation>Toestemming om ↳-kanalen te creëren. Gebruikers die ↳-kanalen creëren komen in de beheerdersgroep van desbetreffende ↳-kanalen.</translation>
+        <translation type="vanished">Toestemming om ↳-kanalen te creëren. Gebruikers die ↳-kanalen creëren komen in de beheerdersgroep van desbetreffende ↳-kanalen.</translation>
     </message>
     <message>
         <source>This represents the permission to make a temporary subchannel. The user making the sub-channel will be added to the admin group of the sub-channel. Temporary channels are not stored and disappear when the last user leaves.</source>
-        <translation>Toestemming tijdelijke ↳-kanalen te creëren. Subkanaal creërende gebruikers worden toegevoegd aan de beheerdersgroep van een nieuw ↳-kanaal. Tijdelijke kanalen verdwijnen wanneer laatste gebruiker verlaat.</translation>
+        <translation type="vanished">Toestemming tijdelijke ↳-kanalen te creëren. Subkanaal creërende gebruikers worden toegevoegd aan de beheerdersgroep van een nieuw ↳-kanaal. Tijdelijke kanalen verdwijnen wanneer laatste gebruiker verlaat.</translation>
     </message>
     <message>
         <source>This represents the permission to link channels. Users in linked channels hear each other, as long as the speaking user has the &lt;i&gt;speak&lt;/i&gt; privilege in the channel of the listener. You need the link privilege in both channels to create a link, but just in either channel to remove it.</source>
-        <translation>Toestemming om kanalen te koppelen. Gebruikers van gekoppelde kanalen horen elkaar, zolang sprekende gebruiker het &lt;i&gt;spreken&lt;/i&gt;-recht in kanaal van de luisteraar heeft. Je moet het koppelingsrecht in beide kanalen hebben om een koppeling te creëren, en slechts in een enkel kanaal om te ontkoppelen.</translation>
+        <translation type="vanished">Toestemming om kanalen te koppelen. Gebruikers van gekoppelde kanalen horen elkaar, zolang sprekende gebruiker het &lt;i&gt;spreken&lt;/i&gt;-recht in kanaal van de luisteraar heeft. Je moet het koppelingsrecht in beide kanalen hebben om een koppeling te creëren, en slechts in een enkel kanaal om te ontkoppelen.</translation>
     </message>
     <message>
         <source>This represents the permission to write text messages to other users in this channel.</source>
-        <translation>Toestemming tekstberichten naar andere kanaalgebruikers te schrijven.</translation>
+        <translation type="vanished">Toestemming tekstberichten naar andere kanaalgebruikers te schrijven.</translation>
     </message>
     <message>
         <source>This represents the permission to forcibly remove users from the server.</source>
-        <translation>Het recht om bepaalde gebruikers uit server te gooien.</translation>
+        <translation type="vanished">Het recht om bepaalde gebruikers uit server te gooien.</translation>
     </message>
     <message>
         <source>This represents the permission to permanently remove users from the server.</source>
-        <translation>Het recht gebruikers op server te bannen.</translation>
+        <translation type="vanished">Het recht gebruikers op server te bannen.</translation>
     </message>
     <message>
         <source>This represents the permission to register and unregister users on the server.</source>
-        <translation>Toestemming om gebruikers te (ont)registreren (server).</translation>
+        <translation type="vanished">Toestemming om gebruikers te (ont)registreren (server).</translation>
     </message>
     <message>
         <source>This represents the permission to register oneself on the server.</source>
-        <translation>Recht dat iemand zichzelf zelf op server kan registeren.</translation>
+        <translation type="vanished">Recht dat iemand zichzelf zelf op server kan registeren.</translation>
     </message>
     <message>
         <source>Whisper</source>
-        <translation>Fluister</translation>
+        <translation type="vanished">Fluister</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>Verplaatsen</translation>
+        <translation type="vanished">Verplaatsen</translation>
     </message>
     <message>
         <source>Text message</source>
-        <translation>Tekstbericht</translation>
+        <translation type="vanished">Tekstbericht</translation>
     </message>
     <message>
         <source>Kick</source>
-        <translation>Schoppen</translation>
+        <translation type="vanished">Schoppen</translation>
     </message>
     <message>
         <source>Ban</source>
-        <translation>Bannen</translation>
+        <translation type="vanished">Bannen</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation>Gebruiker registreren</translation>
+        <translation type="vanished">Gebruiker registreren</translation>
     </message>
     <message>
         <source>Register Self</source>
-        <translation>Jezelf registeren</translation>
+        <translation type="vanished">Jezelf registeren</translation>
     </message>
     <message>
         <source>Write ACL</source>
-        <translation>ACL&apos;s schrijven</translation>
+        <translation type="vanished">ACL&apos;s schrijven</translation>
     </message>
     <message>
         <source>This represents the permission to use the listen-feature allowing to listen to a channel without being in it.</source>
-        <translation>Dit schetst de toestemming om de luisterfunctie te gebruiken.</translation>
+        <translation type="vanished">Dit schetst de toestemming om de luisterfunctie te gebruiken.</translation>
     </message>
     <message>
         <source>Listen</source>
-        <translation>Luisteren</translation>
+        <translation type="vanished">Luisteren</translation>
     </message>
     <message>
         <source>This represents the permission to reset the comment or avatar of a user.</source>
-        <translation>Dit weerspiegelt de toestemming om een opmerking of een profielfoto van een gebruiker te wissen.</translation>
+        <translation type="vanished">Dit weerspiegelt de toestemming om een opmerking of een profielfoto van een gebruiker te wissen.</translation>
     </message>
     <message>
         <source>Reset User Content</source>
-        <translation>Gebruikersinhoud wissen</translation>
+        <translation type="vanished">Gebruikersinhoud wissen</translation>
     </message>
 </context>
 <context>
@@ -3449,11 +3449,11 @@ Zonder deze optie ingeschakeld, werken Mumble&apos;s globale snelkoppelingen nie
     <name>GlobalShortcutMac</name>
     <message>
         <source>Mouse</source>
-        <translation>Muis</translation>
+        <translation type="vanished">Muis</translation>
     </message>
     <message>
         <source>Keyboard</source>
-        <translation>Toetsenbord</translation>
+        <translation type="vanished">Toetsenbord</translation>
     </message>
 </context>
 <context>
@@ -7272,7 +7272,7 @@ Om naar laatste versie te upgraden klik onderstaande knop.</translation>
     </message>
     <message>
         <source>Mumble is currently connected to a server</source>
-        <translation>Mumble is momenteel verbonden met een server</translation>
+        <translation type="vanished">Mumble is momenteel verbonden met een server</translation>
     </message>
 </context>
 <context>
@@ -7377,7 +7377,7 @@ Zie &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;de
     </message>
     <message>
         <source>Default Device</source>
-        <translation>Standaardapparaat</translation>
+        <translation type="vanished">Standaardapparaat</translation>
     </message>
     <message>
         <source>This option works best when using built-in microphone and speaker.</source>
@@ -7385,11 +7385,11 @@ Zie &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;de
     </message>
     <message>
         <source>Access to the microphone was denied. Please allow Mumble to use the microphone by changing the settings in System Preferences -&gt; Security &amp; Privacy -&gt; Privacy -&gt; Microphone.</source>
-        <translation>Toegang tot de microfoon werd geweigerd. Laat Mumble a.u.b. de microfoon gebruiken door de instellingen in Systeemvoorkeuren → Beveiligen &amp; Privacy → Privacy → Microfoon.</translation>
+        <translation type="vanished">Toegang tot de microfoon werd geweigerd. Laat Mumble a.u.b. de microfoon gebruiken door de instellingen in Systeemvoorkeuren → Beveiligen &amp; Privacy → Privacy → Microfoon.</translation>
     </message>
     <message>
         <source>Access to the microphone was denied due to system restrictions. You will not be ableto use the microphone in this session.</source>
-        <translation>Toegang tot de micofoon geweigerd vanwegen systeembepalingen. Je werd buiten staat gesteld om de microfoon te gebruiken zo lang deze sessie geld.</translation>
+        <translation type="vanished">Toegang tot de micofoon geweigerd vanwegen systeembepalingen. Je werd buiten staat gesteld om de microfoon te gebruiken zo lang deze sessie geld.</translation>
     </message>
     <message>
         <source>If enabled this tries to cancel out echo from the audio stream.</source>

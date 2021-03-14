@@ -2580,147 +2580,131 @@ Are you sure you wish to replace your certificate?
     <name>ChanACL</name>
     <message>
         <source>None</source>
-        <translation>なし</translation>
+        <translation type="vanished">なし</translation>
     </message>
     <message>
         <source>Traverse</source>
-        <translation>トラバース</translation>
+        <translation type="vanished">トラバース</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>チャンネルへの参加</translation>
+        <translation type="vanished">チャンネルへの参加</translation>
     </message>
     <message>
         <source>Speak</source>
-        <translation>発言</translation>
+        <translation type="vanished">発言</translation>
     </message>
     <message>
         <source>Mute/Deafen</source>
-        <translation>発言禁止/聴取禁止</translation>
+        <translation type="vanished">発言禁止/聴取禁止</translation>
     </message>
     <message>
         <source>Make channel</source>
-        <translation>チャンネル作成</translation>
+        <translation type="vanished">チャンネル作成</translation>
     </message>
     <message>
         <source>Make temporary</source>
-        <translation>一時チャンネルの作成</translation>
+        <translation type="vanished">一時チャンネルの作成</translation>
     </message>
     <message>
         <source>Link channel</source>
-        <translation>チャンネルをリンク</translation>
+        <translation type="vanished">チャンネルをリンク</translation>
     </message>
     <message>
         <source>This represents no privileges.</source>
-        <translation>権限がないことを表します。</translation>
+        <translation type="vanished">権限がないことを表します。</translation>
     </message>
     <message>
         <source>This represents total access to the channel, including the ability to change group and ACL information. This privilege implies all other privileges.</source>
-        <translation>グループとACL情報の変更を含む、チャンネルへの完全なアクセスを表します。この権限は、必然的に他の全ての権限を含んでいます。</translation>
+        <translation type="vanished">グループとACL情報の変更を含む、チャンネルへの完全なアクセスを表します。この権限は、必然的に他の全ての権限を含んでいます。</translation>
     </message>
     <message>
         <source>This represents the permission to traverse the channel. If a user is denied this privilege, he will be unable to access this channel and any sub-channels in any way, regardless of other permissions in the sub-channels.</source>
-        <translation>チャンネル間を移動する権限を表します。あるユーザがこの権限を与えられない場合、サブチャンネルの権限に関わらず、どんな方法でもこのチャンネルおよびサブチャンネルにアクセス出来なくなります。</translation>
+        <translation type="vanished">チャンネル間を移動する権限を表します。あるユーザがこの権限を与えられない場合、サブチャンネルの権限に関わらず、どんな方法でもこのチャンネルおよびサブチャンネルにアクセス出来なくなります。</translation>
     </message>
     <message>
         <source>This represents the permission to join the channel. If you have a hierarchical channel structure, you might want to give everyone Traverse, but restrict Enter in the root of your hierarchy.</source>
-        <translation>チャンネルに参加する権限を表します。階層的なチャンネル構造がある場合、全ての人にチャンネルアクセスを与えたくなるかもしれませんが、階層の最下部で参加が制限されるかもしれません。</translation>
+        <translation type="vanished">チャンネルに参加する権限を表します。階層的なチャンネル構造がある場合、全ての人にチャンネルアクセスを与えたくなるかもしれませんが、階層の最下部で参加が制限されるかもしれません。</translation>
     </message>
     <message>
         <source>This represents the permission to speak in a channel. Users without this privilege will be suppressed by the server (seen as muted), and will be unable to speak until they are unmuted by someone with the appropriate privileges.</source>
-        <translation>このチャンネル内で発言する権限を表します。この権限がないユーザはサーバによって発言を抑制され(発言禁止にされているように見えます)、適切な権限を持つ誰かが発言禁止を解くまで話すことができません。</translation>
+        <translation type="vanished">このチャンネル内で発言する権限を表します。この権限がないユーザはサーバによって発言を抑制され(発言禁止にされているように見えます)、適切な権限を持つ誰かが発言禁止を解くまで話すことができません。</translation>
     </message>
     <message>
         <source>This represents the permission to whisper to this channel from the outside. This works exactly like the &lt;i&gt;speak&lt;/i&gt; privilege, but applies to packets spoken with the Whisper key held down. This may be used to broadcast to a hierarchy of channels without linking.</source>
-        <translation>このチャンネルの外側から中へささやきを行う権限です。この権限は&lt;i&gt;発言&lt;/i&gt;の権限のように働きます。しかし、ささやきのキーが押されている発言パケットに適用されます。リンクしていないチャンネルの階層にブロードキャストするかもしれません。</translation>
+        <translation type="vanished">このチャンネルの外側から中へささやきを行う権限です。この権限は&lt;i&gt;発言&lt;/i&gt;の権限のように働きます。しかし、ささやきのキーが押されている発言パケットに適用されます。リンクしていないチャンネルの階層にブロードキャストするかもしれません。</translation>
     </message>
     <message>
         <source>This represents the permission to mute and deafen other users. Once muted, a user will stay muted until he is unmuted by another privileged user or reconnects to the server.</source>
-        <translation>他のユーザを発言禁止にしたり、聴取禁止にしたりする権限を表します。一度発言禁止になると、他に権限を持ったユーザが発言禁止を解くか、サーバに接続しなおすまで発言禁止のままになります。</translation>
+        <translation type="vanished">他のユーザを発言禁止にしたり、聴取禁止にしたりする権限を表します。一度発言禁止になると、他に権限を持ったユーザが発言禁止を解くか、サーバに接続しなおすまで発言禁止のままになります。</translation>
     </message>
     <message>
         <source>This represents the permission to move a user to another channel or kick him from the server. To actually move the user, either the moving user must have Move privileges in the destination channel, or the user must normally be allowed to enter the channel. Users with this privilege can move users into channels the target user normally wouldn&apos;t have permission to enter.</source>
-        <translation>他の人を別のチャンネルに移動させたり、サーバからキックしたりする権限を表します。実際にユーザを動かすには、実行する人が移動先のチャンネルの移動/キック権限を持っているか、ユーザが移動先チャンネルに参加する権限を持っていなければなりません。この権限を持っている人は、対象のユーザが通常参加を許可されていないチャンネルに移動させることができます。</translation>
+        <translation type="vanished">他の人を別のチャンネルに移動させたり、サーバからキックしたりする権限を表します。実際にユーザを動かすには、実行する人が移動先のチャンネルの移動/キック権限を持っているか、ユーザが移動先チャンネルに参加する権限を持っていなければなりません。この権限を持っている人は、対象のユーザが通常参加を許可されていないチャンネルに移動させることができます。</translation>
     </message>
     <message>
         <source>This represents the permission to make sub-channels. The user making the sub-channel will be added to the admin group of the sub-channel.</source>
-        <translation>サブチャンネルを作成する権限を表します。サブチャンネルを作ったユーザは、そのチャンネルの管理者グループに追加されます。</translation>
+        <translation type="vanished">サブチャンネルを作成する権限を表します。サブチャンネルを作ったユーザは、そのチャンネルの管理者グループに追加されます。</translation>
     </message>
     <message>
         <source>This represents the permission to make a temporary subchannel. The user making the sub-channel will be added to the admin group of the sub-channel. Temporary channels are not stored and disappear when the last user leaves.</source>
-        <translation>サブチャンネルとして一時チャンネルを作成する権限を表します。サブチャンネルを作ったユーザはそのチャンネルの admin グループに追加されます。一時チャンネルは、チャンネルからユーザがいなくなった場合に保持されずに消えます。</translation>
+        <translation type="vanished">サブチャンネルとして一時チャンネルを作成する権限を表します。サブチャンネルを作ったユーザはそのチャンネルの admin グループに追加されます。一時チャンネルは、チャンネルからユーザがいなくなった場合に保持されずに消えます。</translation>
     </message>
     <message>
         <source>This represents the permission to link channels. Users in linked channels hear each other, as long as the speaking user has the &lt;i&gt;speak&lt;/i&gt; privilege in the channel of the listener. You need the link privilege in both channels to create a link, but just in either channel to remove it.</source>
-        <translation>チャンネルをリンクする権限を表します。話している人が聞き手のチャンネルに&lt;i&gt;発言&lt;/i&gt;の権限を持っている限り、リンクされたチャンネルのユーザは互いに聞く事ができます。</translation>
+        <translation type="vanished">チャンネルをリンクする権限を表します。話している人が聞き手のチャンネルに&lt;i&gt;発言&lt;/i&gt;の権限を持っている限り、リンクされたチャンネルのユーザは互いに聞く事ができます。</translation>
     </message>
     <message>
         <source>This represents the permission to write text messages to other users in this channel.</source>
-        <translation>このチャンネルで他のユーザにテキストメッセージを送る権限を表します。</translation>
+        <translation type="vanished">このチャンネルで他のユーザにテキストメッセージを送る権限を表します。</translation>
     </message>
     <message>
         <source>This represents the permission to forcibly remove users from the server.</source>
-        <translation>サーバからユーザを追い出す権限を表します。</translation>
+        <translation type="vanished">サーバからユーザを追い出す権限を表します。</translation>
     </message>
     <message>
         <source>This represents the permission to permanently remove users from the server.</source>
-        <translation>サーバからユーザを永久的に追放する権限を表します。</translation>
+        <translation type="vanished">サーバからユーザを永久的に追放する権限を表します。</translation>
     </message>
     <message>
         <source>This represents the permission to register and unregister users on the server.</source>
-        <translation>サーバ上のユーザをユーザ登録したり登録を抹消する権利を表します。</translation>
+        <translation type="vanished">サーバ上のユーザをユーザ登録したり登録を抹消する権利を表します。</translation>
     </message>
     <message>
         <source>This represents the permission to register oneself on the server.</source>
-        <translation>サーバ上でユーザ自身がユーザ登録を行う権限を表します。</translation>
+        <translation type="vanished">サーバ上でユーザ自身がユーザ登録を行う権限を表します。</translation>
     </message>
     <message>
         <source>Whisper</source>
-        <translation>ささやき</translation>
+        <translation type="vanished">ささやき</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>ユーザの移動</translation>
+        <translation type="vanished">ユーザの移動</translation>
     </message>
     <message>
         <source>Text message</source>
-        <translation>テキストメッセージ</translation>
+        <translation type="vanished">テキストメッセージ</translation>
     </message>
     <message>
         <source>Kick</source>
-        <translation>ユーザのキック</translation>
+        <translation type="vanished">ユーザのキック</translation>
     </message>
     <message>
         <source>Ban</source>
-        <translation>ユーザのバン</translation>
+        <translation type="vanished">ユーザのバン</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation>他ユーザを登録</translation>
+        <translation type="vanished">他ユーザを登録</translation>
     </message>
     <message>
         <source>Register Self</source>
-        <translation>自分をユーザ登録</translation>
+        <translation type="vanished">自分をユーザ登録</translation>
     </message>
     <message>
         <source>Write ACL</source>
-        <translation>ACLの上書き</translation>
-    </message>
-    <message>
-        <source>This represents the permission to use the listen-feature allowing to listen to a channel without being in it.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Listen</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to reset the comment or avatar of a user.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reset User Content</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">ACLの上書き</translation>
     </message>
 </context>
 <context>
@@ -3431,17 +3415,6 @@ Without this option enabled, using Mumble&apos;s global shortcuts in privileged 
     <name>GlobalShortcutEngine</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>GlobalShortcutMac</name>
-    <message>
-        <source>Mouse</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Keyboard</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7186,10 +7159,6 @@ To upgrade these files to their latest versions, click the button below.</source
         <source>Mumble failed to restart itself. Please restart it manually.</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>Mumble is currently connected to a server</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QObject</name>
@@ -7292,18 +7261,10 @@ See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;th
     </message>
     <message>
         <source>Default Device</source>
-        <translation type="unfinished">デフォルトデバイス</translation>
+        <translation type="obsolete">デフォルトデバイス</translation>
     </message>
     <message>
         <source>This option works best when using built-in microphone and speaker.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied. Please allow Mumble to use the microphone by changing the settings in System Preferences -&gt; Security &amp; Privacy -&gt; Privacy -&gt; Microphone.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied due to system restrictions. You will not be ableto use the microphone in this session.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

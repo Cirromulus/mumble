@@ -2583,147 +2583,131 @@ Are you sure you wish to replace your certificate?
     <name>ChanACL</name>
     <message>
         <source>None</source>
-        <translation>Ingen</translation>
+        <translation type="vanished">Ingen</translation>
     </message>
     <message>
         <source>Traverse</source>
-        <translation>Åtkomst</translation>
+        <translation type="vanished">Åtkomst</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>Gå med</translation>
+        <translation type="vanished">Gå med</translation>
     </message>
     <message>
         <source>Speak</source>
-        <translation>Tala</translation>
+        <translation type="vanished">Tala</translation>
     </message>
     <message>
         <source>Mute/Deafen</source>
-        <translation>Avaktivera mikrofon/ljud</translation>
+        <translation type="vanished">Avaktivera mikrofon/ljud</translation>
     </message>
     <message>
         <source>Make channel</source>
-        <translation>Skapa kanal</translation>
+        <translation type="vanished">Skapa kanal</translation>
     </message>
     <message>
         <source>Make temporary</source>
-        <translation>Skapa temporär</translation>
+        <translation type="vanished">Skapa temporär</translation>
     </message>
     <message>
         <source>Link channel</source>
-        <translation>Länka kanal</translation>
+        <translation type="vanished">Länka kanal</translation>
     </message>
     <message>
         <source>This represents no privileges.</source>
-        <translation>Detta motsvarar inga behörigheter.</translation>
+        <translation type="vanished">Detta motsvarar inga behörigheter.</translation>
     </message>
     <message>
         <source>This represents total access to the channel, including the ability to change group and ACL information. This privilege implies all other privileges.</source>
-        <translation>Detta motsvarar total tillgång till kanalen, såsom behörighet att ändra grupp- och ACL-information. Dessa behörigheter innebär också tillgång till allt annat.</translation>
+        <translation type="vanished">Detta motsvarar total tillgång till kanalen, såsom behörighet att ändra grupp- och ACL-information. Dessa behörigheter innebär också tillgång till allt annat.</translation>
     </message>
     <message>
         <source>This represents the permission to traverse the channel. If a user is denied this privilege, he will be unable to access this channel and any sub-channels in any way, regardless of other permissions in the sub-channels.</source>
-        <translation>Detta motsvarar behörigheten för att ändra åkomst för kanalen. Om en användare nekas den här behörigheten, kan han inte komma åt denna kanalen eller någon underkanal över huvud taget, oavsett andra behörigheter i underkanalerna.</translation>
+        <translation type="vanished">Detta motsvarar behörigheten för att ändra åkomst för kanalen. Om en användare nekas den här behörigheten, kan han inte komma åt denna kanalen eller någon underkanal över huvud taget, oavsett andra behörigheter i underkanalerna.</translation>
     </message>
     <message>
         <source>This represents the permission to join the channel. If you have a hierarchical channel structure, you might want to give everyone Traverse, but restrict Enter in the root of your hierarchy.</source>
-        <translation>Detta motsvarar behörigheten för att gå med i kanalen. Om du har en listad kanalstruktur vill du kanske ge alla &quot;Åtkomst&quot;, men begränsa &quot;Gå med&quot; i roten för din lista.</translation>
+        <translation type="vanished">Detta motsvarar behörigheten för att gå med i kanalen. Om du har en listad kanalstruktur vill du kanske ge alla &quot;Åtkomst&quot;, men begränsa &quot;Gå med&quot; i roten för din lista.</translation>
     </message>
     <message>
         <source>This represents the permission to speak in a channel. Users without this privilege will be suppressed by the server (seen as muted), and will be unable to speak until they are unmuted by someone with the appropriate privileges.</source>
-        <translation>Detta motsvarar behörigheten för att tala i en kanal. Användare utan denna behörighet kommer att tystas av servern (visas som avaktiverad mikrofon) och kommer inte att kunna tala tills deras mikrofon aktiveras av någon med behörigheter att göra det.</translation>
+        <translation type="vanished">Detta motsvarar behörigheten för att tala i en kanal. Användare utan denna behörighet kommer att tystas av servern (visas som avaktiverad mikrofon) och kommer inte att kunna tala tills deras mikrofon aktiveras av någon med behörigheter att göra det.</translation>
     </message>
     <message>
         <source>This represents the permission to whisper to this channel from the outside. This works exactly like the &lt;i&gt;speak&lt;/i&gt; privilege, but applies to packets spoken with the Whisper key held down. This may be used to broadcast to a hierarchy of channels without linking.</source>
-        <translation>Detta motsvarar behörigheten för att viska till den här kanalen från utsidan. Detta fungerar precis som &lt;i&gt;tala&lt;/i&gt; behörigheten, men verkställs till paket med Viska-knappen nedtryckt. Detta kan användas för att skicka till flera kanaler utan länkning.</translation>
+        <translation type="vanished">Detta motsvarar behörigheten för att viska till den här kanalen från utsidan. Detta fungerar precis som &lt;i&gt;tala&lt;/i&gt; behörigheten, men verkställs till paket med Viska-knappen nedtryckt. Detta kan användas för att skicka till flera kanaler utan länkning.</translation>
     </message>
     <message>
         <source>This represents the permission to mute and deafen other users. Once muted, a user will stay muted until he is unmuted by another privileged user or reconnects to the server.</source>
-        <translation>Detta motsvarar behörigheten för att avaktivera mikrofon/ljud för andra användare. När mikrofonen är avstängd kommer användaren vara det tills mikrofonen aktiveras av en annan användare med behörigheter, eller återansluter till servern.</translation>
+        <translation type="vanished">Detta motsvarar behörigheten för att avaktivera mikrofon/ljud för andra användare. När mikrofonen är avstängd kommer användaren vara det tills mikrofonen aktiveras av en annan användare med behörigheter, eller återansluter till servern.</translation>
     </message>
     <message>
         <source>This represents the permission to move a user to another channel or kick him from the server. To actually move the user, either the moving user must have Move privileges in the destination channel, or the user must normally be allowed to enter the channel. Users with this privilege can move users into channels the target user normally wouldn&apos;t have permission to enter.</source>
-        <translation>Detta motsvarar behörigheten för att flytta en användare till en annan kanal eller slänga ut honom från servern. För att verkligen flytta en användare måste användaren som flyttar ha behörigheten &quot;Flytta&quot; i målskanalen, eller så måste användaren manuellt tillåtas att gå med i kanalen. Användare med denna behörighet kan flytta användare till kanaler där den valda användaren vanligtvis inte har behörigheter att gå med i.</translation>
+        <translation type="vanished">Detta motsvarar behörigheten för att flytta en användare till en annan kanal eller slänga ut honom från servern. För att verkligen flytta en användare måste användaren som flyttar ha behörigheten &quot;Flytta&quot; i målskanalen, eller så måste användaren manuellt tillåtas att gå med i kanalen. Användare med denna behörighet kan flytta användare till kanaler där den valda användaren vanligtvis inte har behörigheter att gå med i.</translation>
     </message>
     <message>
         <source>This represents the permission to make sub-channels. The user making the sub-channel will be added to the admin group of the sub-channel.</source>
-        <translation>Detta motsvarar behörigheten för att skapa underkanaler. Användaren som skapar underkanalen kommer läggas till i administratörsgruppen för underkanalen.</translation>
+        <translation type="vanished">Detta motsvarar behörigheten för att skapa underkanaler. Användaren som skapar underkanalen kommer läggas till i administratörsgruppen för underkanalen.</translation>
     </message>
     <message>
         <source>This represents the permission to make a temporary subchannel. The user making the sub-channel will be added to the admin group of the sub-channel. Temporary channels are not stored and disappear when the last user leaves.</source>
-        <translation>Detta motsvarar behörigheten för att skapa en temporär underkanal. Användaren som skapar underkanalen kommer läggas till i administratörsgruppen för underkanalen. Temporära kanaler lagras inte och kommer att försvinna så snart den sista användaren lämnar.</translation>
+        <translation type="vanished">Detta motsvarar behörigheten för att skapa en temporär underkanal. Användaren som skapar underkanalen kommer läggas till i administratörsgruppen för underkanalen. Temporära kanaler lagras inte och kommer att försvinna så snart den sista användaren lämnar.</translation>
     </message>
     <message>
         <source>This represents the permission to link channels. Users in linked channels hear each other, as long as the speaking user has the &lt;i&gt;speak&lt;/i&gt; privilege in the channel of the listener. You need the link privilege in both channels to create a link, but just in either channel to remove it.</source>
-        <translation>Detta motsvarar behörigheten för att länka kanaler. Användare i länkade kanaler kan höra varandra sålänge användaren som talar har behörigheten &quot;Tala&quot; i kanalen med lyssnare. Du behöver behörigheten för att länka i båda kanalerna för att skapa en länk, men endast i en kanal för att ta bort den.</translation>
+        <translation type="vanished">Detta motsvarar behörigheten för att länka kanaler. Användare i länkade kanaler kan höra varandra sålänge användaren som talar har behörigheten &quot;Tala&quot; i kanalen med lyssnare. Du behöver behörigheten för att länka i båda kanalerna för att skapa en länk, men endast i en kanal för att ta bort den.</translation>
     </message>
     <message>
         <source>This represents the permission to write text messages to other users in this channel.</source>
-        <translation>Detta motsvarar behörigheten för att skriva textmeddelanden till andra användare i kanalen.</translation>
+        <translation type="vanished">Detta motsvarar behörigheten för att skriva textmeddelanden till andra användare i kanalen.</translation>
     </message>
     <message>
         <source>This represents the permission to forcibly remove users from the server.</source>
-        <translation>Detta motsvarar behörigheten för att tvinga borttagning av användare från servern.</translation>
+        <translation type="vanished">Detta motsvarar behörigheten för att tvinga borttagning av användare från servern.</translation>
     </message>
     <message>
         <source>This represents the permission to permanently remove users from the server.</source>
-        <translation>Detta motsvarar behörigheten för att permanent ta bort användare från servern.</translation>
+        <translation type="vanished">Detta motsvarar behörigheten för att permanent ta bort användare från servern.</translation>
     </message>
     <message>
         <source>This represents the permission to register and unregister users on the server.</source>
-        <translation>Detta motsvarar behörigheten för att registrera och avregistrera användare på servern.</translation>
+        <translation type="vanished">Detta motsvarar behörigheten för att registrera och avregistrera användare på servern.</translation>
     </message>
     <message>
         <source>This represents the permission to register oneself on the server.</source>
-        <translation>Detta motsvarar behörigheten för att registrera sig själv på servern.</translation>
+        <translation type="vanished">Detta motsvarar behörigheten för att registrera sig själv på servern.</translation>
     </message>
     <message>
         <source>Whisper</source>
-        <translation>Viska</translation>
+        <translation type="vanished">Viska</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>Flytta</translation>
+        <translation type="vanished">Flytta</translation>
     </message>
     <message>
         <source>Text message</source>
-        <translation>Textmeddelande</translation>
+        <translation type="vanished">Textmeddelande</translation>
     </message>
     <message>
         <source>Kick</source>
-        <translation>Slänga ut</translation>
+        <translation type="vanished">Slänga ut</translation>
     </message>
     <message>
         <source>Ban</source>
-        <translation>Bannlysa</translation>
+        <translation type="vanished">Bannlysa</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation>Registrera användare</translation>
+        <translation type="vanished">Registrera användare</translation>
     </message>
     <message>
         <source>Register Self</source>
-        <translation>Registrera sig</translation>
+        <translation type="vanished">Registrera sig</translation>
     </message>
     <message>
         <source>Write ACL</source>
-        <translation>Skriva ACL</translation>
-    </message>
-    <message>
-        <source>This represents the permission to use the listen-feature allowing to listen to a channel without being in it.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Listen</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to reset the comment or avatar of a user.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reset User Content</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">Skriva ACL</translation>
     </message>
 </context>
 <context>
@@ -3433,17 +3417,6 @@ Without this option enabled, using Mumble&apos;s global shortcuts in privileged 
     <name>GlobalShortcutEngine</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>GlobalShortcutMac</name>
-    <message>
-        <source>Mouse</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Keyboard</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7195,10 +7168,6 @@ Tryck på knappen nedan för att uppgradera dessa filer till de senaste versione
         <source>Mumble failed to restart itself. Please restart it manually.</source>
         <translation>Mumble misslyckades att starta om själv. Vänligen starta om manuellt.</translation>
     </message>
-    <message>
-        <source>Mumble is currently connected to a server</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QObject</name>
@@ -7301,18 +7270,10 @@ See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;th
     </message>
     <message>
         <source>Default Device</source>
-        <translation type="unfinished">Standardenhet</translation>
+        <translation type="obsolete">Standardenhet</translation>
     </message>
     <message>
         <source>This option works best when using built-in microphone and speaker.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied. Please allow Mumble to use the microphone by changing the settings in System Preferences -&gt; Security &amp; Privacy -&gt; Privacy -&gt; Microphone.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied due to system restrictions. You will not be ableto use the microphone in this session.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

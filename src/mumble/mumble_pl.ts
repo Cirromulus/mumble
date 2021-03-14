@@ -2582,147 +2582,147 @@ Czy na pewno chcesz zastąpić swój bieżący certyfikat?
     <name>ChanACL</name>
     <message>
         <source>None</source>
-        <translation>Żaden</translation>
+        <translation type="vanished">Żaden</translation>
     </message>
     <message>
         <source>Traverse</source>
-        <translation>Wejście na podkanał</translation>
+        <translation type="vanished">Wejście na podkanał</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>Wejście</translation>
+        <translation type="vanished">Wejście</translation>
     </message>
     <message>
         <source>Speak</source>
-        <translation>Mowa</translation>
+        <translation type="vanished">Mowa</translation>
     </message>
     <message>
         <source>Mute/Deafen</source>
-        <translation>Wyciszanie / Ogłuszanie</translation>
+        <translation type="vanished">Wyciszanie / Ogłuszanie</translation>
     </message>
     <message>
         <source>Make channel</source>
-        <translation>Tworzenie kanałów</translation>
+        <translation type="vanished">Tworzenie kanałów</translation>
     </message>
     <message>
         <source>Make temporary</source>
-        <translation>Tworzenie kanałów tymczasowych</translation>
+        <translation type="vanished">Tworzenie kanałów tymczasowych</translation>
     </message>
     <message>
         <source>Link channel</source>
-        <translation>Łączenie kanałów</translation>
+        <translation type="vanished">Łączenie kanałów</translation>
     </message>
     <message>
         <source>This represents no privileges.</source>
-        <translation>Brak uprawnień.</translation>
+        <translation type="vanished">Brak uprawnień.</translation>
     </message>
     <message>
         <source>This represents total access to the channel, including the ability to change group and ACL information. This privilege implies all other privileges.</source>
-        <translation>Uprawnienie to umożliwia całkowity dostęp do kanału, wliczając możliwość dokonywania zmian w grupach oraz regułach ACL. To uprawnienie zawiera wszystkie pozostałe uprawnienia.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia całkowity dostęp do kanału, wliczając możliwość dokonywania zmian w grupach oraz regułach ACL. To uprawnienie zawiera wszystkie pozostałe uprawnienia.</translation>
     </message>
     <message>
         <source>This represents the permission to traverse the channel. If a user is denied this privilege, he will be unable to access this channel and any sub-channels in any way, regardless of other permissions in the sub-channels.</source>
-        <translation>Uprawnienie to umożliwia wejście na podkanały. Jeżeli użytkownikowi odmówiono dostępu do tego uprawnienia, nie będzie w stanie w żaden sposób wejść na podkanały niezależnie od innych uprawnień, jakie ma w podkanałach.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia wejście na podkanały. Jeżeli użytkownikowi odmówiono dostępu do tego uprawnienia, nie będzie w stanie w żaden sposób wejść na podkanały niezależnie od innych uprawnień, jakie ma w podkanałach.</translation>
     </message>
     <message>
         <source>This represents the permission to join the channel. If you have a hierarchical channel structure, you might want to give everyone Traverse, but restrict Enter in the root of your hierarchy.</source>
-        <translation>Uprawnienie to umożliwia wejście na kanał. Jeżeli posiadasz hierarchiczną strukturę kanałów, możesz nadać każdemu uprawnienie wejścia na podkanały, jednocześnie blokując dostęp do głównego kanału w hierarchii.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia wejście na kanał. Jeżeli posiadasz hierarchiczną strukturę kanałów, możesz nadać każdemu uprawnienie wejścia na podkanały, jednocześnie blokując dostęp do głównego kanału w hierarchii.</translation>
     </message>
     <message>
         <source>This represents the permission to speak in a channel. Users without this privilege will be suppressed by the server (seen as muted), and will be unable to speak until they are unmuted by someone with the appropriate privileges.</source>
-        <translation>Uprawnienie to umożliwia używanie mowy na kanale. Użytkownicy nieposiadający tego uprawnienia będą automatycznie wyciszani przez serwer oraz nie będą w stanie mówić, dopóki osoba z odpowiednimi uprawnieniami nie zdejmie im wyciszenia.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia używanie mowy na kanale. Użytkownicy nieposiadający tego uprawnienia będą automatycznie wyciszani przez serwer oraz nie będą w stanie mówić, dopóki osoba z odpowiednimi uprawnieniami nie zdejmie im wyciszenia.</translation>
     </message>
     <message>
         <source>This represents the permission to whisper to this channel from the outside. This works exactly like the &lt;i&gt;speak&lt;/i&gt; privilege, but applies to packets spoken with the Whisper key held down. This may be used to broadcast to a hierarchy of channels without linking.</source>
-        <translation>Uprawnienie to umożliwia używanie szeptu do tego kanału z zewnątrz. Działa dokładnie tak samo jak uprawnienie &lt;i&gt;Mowa&lt;/i&gt;, lecz jest stosowany do pakietów mowy, gdy użyty jest przycisk Szeptu. Może zostać użyte do wygłaszania przemówień do całego drzewa kanałów bez potrzeby ich linkowania.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia używanie szeptu do tego kanału z zewnątrz. Działa dokładnie tak samo jak uprawnienie &lt;i&gt;Mowa&lt;/i&gt;, lecz jest stosowany do pakietów mowy, gdy użyty jest przycisk Szeptu. Może zostać użyte do wygłaszania przemówień do całego drzewa kanałów bez potrzeby ich linkowania.</translation>
     </message>
     <message>
         <source>This represents the permission to mute and deafen other users. Once muted, a user will stay muted until he is unmuted by another privileged user or reconnects to the server.</source>
-        <translation>Uprawnienie to umożliwia ogłuszanie oraz wyciszanie mikrofonu innym użytkownikom. Gdy użytkownik zostanie wyciszony, pozostanie w tym stanie, dopóki inny uprawniony użytkownik nie zdejmie wyciszenia lub do czasu ponownego połączenia z serwerem.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia ogłuszanie oraz wyciszanie mikrofonu innym użytkownikom. Gdy użytkownik zostanie wyciszony, pozostanie w tym stanie, dopóki inny uprawniony użytkownik nie zdejmie wyciszenia lub do czasu ponownego połączenia z serwerem.</translation>
     </message>
     <message>
         <source>This represents the permission to move a user to another channel or kick him from the server. To actually move the user, either the moving user must have Move privileges in the destination channel, or the user must normally be allowed to enter the channel. Users with this privilege can move users into channels the target user normally wouldn&apos;t have permission to enter.</source>
-        <translation>Uprawnienie to umożliwia przenoszenie użytkowników na inne kanały oraz wykopanie ich z serwera. Aby przenieść użytkownika, użytkownik przenoszący musi mieć uprawnienie &lt;i&gt;Przenoszenie użytkowników&lt;/i&gt; w docelowym kanale. Użytkownicy z tym uprawnieniem mogą przenosić innych użytkowników na kanały, na które sami nie mogliby normalnie wejść.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia przenoszenie użytkowników na inne kanały oraz wykopanie ich z serwera. Aby przenieść użytkownika, użytkownik przenoszący musi mieć uprawnienie &lt;i&gt;Przenoszenie użytkowników&lt;/i&gt; w docelowym kanale. Użytkownicy z tym uprawnieniem mogą przenosić innych użytkowników na kanały, na które sami nie mogliby normalnie wejść.</translation>
     </message>
     <message>
         <source>This represents the permission to make sub-channels. The user making the sub-channel will be added to the admin group of the sub-channel.</source>
-        <translation>Uprawnienie to umożliwia tworzenie podkanałów. Użytkownik tworzący podkanał zostaje automatycznie dodany do grupy administratorów tego podkanału.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia tworzenie podkanałów. Użytkownik tworzący podkanał zostaje automatycznie dodany do grupy administratorów tego podkanału.</translation>
     </message>
     <message>
         <source>This represents the permission to make a temporary subchannel. The user making the sub-channel will be added to the admin group of the sub-channel. Temporary channels are not stored and disappear when the last user leaves.</source>
-        <translation>Uprawnienie to umożliwia tworzenie tymczasowych podkanałów. Użytkownik tworzący podkanał zostaje automatycznie dodany do grupy administratorów tego podkanału. Tymczasowe kanały nie są zapisywane i znikają, gdy wszyscy użytkownicy z nich wyjdą.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia tworzenie tymczasowych podkanałów. Użytkownik tworzący podkanał zostaje automatycznie dodany do grupy administratorów tego podkanału. Tymczasowe kanały nie są zapisywane i znikają, gdy wszyscy użytkownicy z nich wyjdą.</translation>
     </message>
     <message>
         <source>This represents the permission to link channels. Users in linked channels hear each other, as long as the speaking user has the &lt;i&gt;speak&lt;/i&gt; privilege in the channel of the listener. You need the link privilege in both channels to create a link, but just in either channel to remove it.</source>
-        <translation>Uprawnienie to umożliwia łączenie kanałów. Użytkownicy na połączonych kanałach słyszą się nawzajem, jeżeli tylko mówiąca osoba posiada uprawnienie &lt;i&gt;Mowa&lt;/i&gt; na kanale gdzie znajduje się słuchacz. Aby połączyć kanały musisz posiadać uprawnienie łączenia kanałów na obu kanałach, aby je rozłączyć tylko w jednym.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia łączenie kanałów. Użytkownicy na połączonych kanałach słyszą się nawzajem, jeżeli tylko mówiąca osoba posiada uprawnienie &lt;i&gt;Mowa&lt;/i&gt; na kanale gdzie znajduje się słuchacz. Aby połączyć kanały musisz posiadać uprawnienie łączenia kanałów na obu kanałach, aby je rozłączyć tylko w jednym.</translation>
     </message>
     <message>
         <source>This represents the permission to write text messages to other users in this channel.</source>
-        <translation>Uprawnienie to umożliwia pisanie wiadomości tekstowych do innych użytkowników znajdujących się na tym kanale.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia pisanie wiadomości tekstowych do innych użytkowników znajdujących się na tym kanale.</translation>
     </message>
     <message>
         <source>This represents the permission to forcibly remove users from the server.</source>
-        <translation>Uprawnienie to umożliwia siłowe usuwanie użytkowników z serwera.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia siłowe usuwanie użytkowników z serwera.</translation>
     </message>
     <message>
         <source>This represents the permission to permanently remove users from the server.</source>
-        <translation>Uprawnienie to umożliwia trwałe usunięcie użytkownika z serwera.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia trwałe usunięcie użytkownika z serwera.</translation>
     </message>
     <message>
         <source>This represents the permission to register and unregister users on the server.</source>
-        <translation>Uprawnienie to umożliwia rejestrowanie oraz wyrejestrowywanie użytkowników na serwerze.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia rejestrowanie oraz wyrejestrowywanie użytkowników na serwerze.</translation>
     </message>
     <message>
         <source>This represents the permission to register oneself on the server.</source>
-        <translation>Uprawnienie to umożliwia rejestrację samego siebie na serwerze.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia rejestrację samego siebie na serwerze.</translation>
     </message>
     <message>
         <source>Whisper</source>
-        <translation>Szept</translation>
+        <translation type="vanished">Szept</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>Przenoszenie użytkowników</translation>
+        <translation type="vanished">Przenoszenie użytkowników</translation>
     </message>
     <message>
         <source>Text message</source>
-        <translation>Wysyłanie wiadomości tekstowej</translation>
+        <translation type="vanished">Wysyłanie wiadomości tekstowej</translation>
     </message>
     <message>
         <source>Kick</source>
-        <translation>Kopanie użytkowników</translation>
+        <translation type="vanished">Kopanie użytkowników</translation>
     </message>
     <message>
         <source>Ban</source>
-        <translation>Banowanie użytkowników</translation>
+        <translation type="vanished">Banowanie użytkowników</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation>Rejestracja użytkowników</translation>
+        <translation type="vanished">Rejestracja użytkowników</translation>
     </message>
     <message>
         <source>Register Self</source>
-        <translation>Rejestrację samego siebie</translation>
+        <translation type="vanished">Rejestrację samego siebie</translation>
     </message>
     <message>
         <source>Write ACL</source>
-        <translation>Edycja ACL</translation>
+        <translation type="vanished">Edycja ACL</translation>
     </message>
     <message>
         <source>This represents the permission to use the listen-feature allowing to listen to a channel without being in it.</source>
-        <translation>Uprawnienie to umożliwia korzystanie z funkcji nasłuchu pozwalającej na słuchanie kanału bez bycia na nim.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia korzystanie z funkcji nasłuchu pozwalającej na słuchanie kanału bez bycia na nim.</translation>
     </message>
     <message>
         <source>Listen</source>
-        <translation>Słuchaj</translation>
+        <translation type="vanished">Słuchaj</translation>
     </message>
     <message>
         <source>This represents the permission to reset the comment or avatar of a user.</source>
-        <translation>Uprawnienie to umożliwia zresetowania komentarza lub awatara użytkownika.</translation>
+        <translation type="vanished">Uprawnienie to umożliwia zresetowania komentarza lub awatara użytkownika.</translation>
     </message>
     <message>
         <source>Reset User Content</source>
-        <translation>Resetuj treści użytkownika</translation>
+        <translation type="vanished">Resetuj treści użytkownika</translation>
     </message>
 </context>
 <context>
@@ -3441,11 +3441,11 @@ Bez tej opcji korzystanie z globalnych skrótów Mumble w aplikacjach uprzywilej
     <name>GlobalShortcutMac</name>
     <message>
         <source>Mouse</source>
-        <translation>Mysz</translation>
+        <translation type="vanished">Mysz</translation>
     </message>
     <message>
         <source>Keyboard</source>
-        <translation>Klawiatura</translation>
+        <translation type="vanished">Klawiatura</translation>
     </message>
 </context>
 <context>
@@ -7266,7 +7266,7 @@ Aby uaktualnić pliki do najnowszych wersji, kliknij przycisk poniżej.</transla
     </message>
     <message>
         <source>Mumble is currently connected to a server</source>
-        <translation>Mumble jest obecnie połączony z serwerem</translation>
+        <translation type="vanished">Mumble jest obecnie połączony z serwerem</translation>
     </message>
 </context>
 <context>
@@ -7371,7 +7371,7 @@ Zobacz &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt
     </message>
     <message>
         <source>Default Device</source>
-        <translation>Urządzenie domyślne</translation>
+        <translation type="vanished">Urządzenie domyślne</translation>
     </message>
     <message>
         <source>This option works best when using built-in microphone and speaker.</source>
@@ -7379,11 +7379,11 @@ Zobacz &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt
     </message>
     <message>
         <source>Access to the microphone was denied. Please allow Mumble to use the microphone by changing the settings in System Preferences -&gt; Security &amp; Privacy -&gt; Privacy -&gt; Microphone.</source>
-        <translation>Odmówiono dostępu do mikrofonu. Zezwól Mumble na korzystanie z mikrofonu, zmieniając ustawienia w Preferencje systemowe -&gt; Bezpieczeństwo i prywatność -&gt; Prywatność -&gt; Mikrofon.</translation>
+        <translation type="vanished">Odmówiono dostępu do mikrofonu. Zezwól Mumble na korzystanie z mikrofonu, zmieniając ustawienia w Preferencje systemowe -&gt; Bezpieczeństwo i prywatność -&gt; Prywatność -&gt; Mikrofon.</translation>
     </message>
     <message>
         <source>Access to the microphone was denied due to system restrictions. You will not be ableto use the microphone in this session.</source>
-        <translation>Odmówiono dostępu do mikrofonu z powodu ograniczeń systemowych. W tej sesji nie będzie można używać mikrofonu.</translation>
+        <translation type="vanished">Odmówiono dostępu do mikrofonu z powodu ograniczeń systemowych. W tej sesji nie będzie można używać mikrofonu.</translation>
     </message>
     <message>
         <source>If enabled this tries to cancel out echo from the audio stream.</source>

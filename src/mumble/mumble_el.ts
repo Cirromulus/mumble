@@ -2589,147 +2589,131 @@ Are you sure you wish to replace your certificate?
     <name>ChanACL</name>
     <message>
         <source>None</source>
-        <translation>Κανένα</translation>
+        <translation type="vanished">Κανένα</translation>
     </message>
     <message>
         <source>Traverse</source>
-        <translation>Διάβαση</translation>
+        <translation type="vanished">Διάβαση</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>Εισαγωγή</translation>
+        <translation type="vanished">Εισαγωγή</translation>
     </message>
     <message>
         <source>Speak</source>
-        <translation>Ομιλία</translation>
+        <translation type="vanished">Ομιλία</translation>
     </message>
     <message>
         <source>Mute/Deafen</source>
-        <translation>Φίμωση/Κώφωση</translation>
+        <translation type="vanished">Φίμωση/Κώφωση</translation>
     </message>
     <message>
         <source>Make channel</source>
-        <translation>Δημιουργία καναλιού</translation>
+        <translation type="vanished">Δημιουργία καναλιού</translation>
     </message>
     <message>
         <source>Make temporary</source>
-        <translation>Δημιουργία προσωρινού</translation>
+        <translation type="vanished">Δημιουργία προσωρινού</translation>
     </message>
     <message>
         <source>Link channel</source>
-        <translation>Συσχέτιση καναλιού</translation>
+        <translation type="vanished">Συσχέτιση καναλιού</translation>
     </message>
     <message>
         <source>This represents no privileges.</source>
-        <translation>Αυτό δεν αντιπροσωπεύει κανένα προνόμιο.</translation>
+        <translation type="vanished">Αυτό δεν αντιπροσωπεύει κανένα προνόμιο.</translation>
     </message>
     <message>
         <source>This represents total access to the channel, including the ability to change group and ACL information. This privilege implies all other privileges.</source>
-        <translation>Αυτό αντιπροσωπεύει την πλήρη πρόσβαση στο κανάλι, συμπεριλαμβανομένης της δυνατότητας αλλαγής των πληροφοριών των ομάδων και της ACL. Αυτό το προνόμιο συνεπάγεται όλα τα άλλα προνόμια.</translation>
+        <translation type="vanished">Αυτό αντιπροσωπεύει την πλήρη πρόσβαση στο κανάλι, συμπεριλαμβανομένης της δυνατότητας αλλαγής των πληροφοριών των ομάδων και της ACL. Αυτό το προνόμιο συνεπάγεται όλα τα άλλα προνόμια.</translation>
     </message>
     <message>
         <source>This represents the permission to traverse the channel. If a user is denied this privilege, he will be unable to access this channel and any sub-channels in any way, regardless of other permissions in the sub-channels.</source>
-        <translation>Αυτό αντιπροσωπεύει την άδεια διέλευσης του καναλιού. Εάν ένας χρήστης δεν έχει αυτό το προνόμιο, δεν θα μπορεί να έχει πρόσβαση σε αυτό το κανάλι και σε κανένα υπο-κανάλι με οποιονδήποτε τρόπο, ανεξάρτητα από άλλα δικαιώματα στα υπο-κανάλια.</translation>
+        <translation type="vanished">Αυτό αντιπροσωπεύει την άδεια διέλευσης του καναλιού. Εάν ένας χρήστης δεν έχει αυτό το προνόμιο, δεν θα μπορεί να έχει πρόσβαση σε αυτό το κανάλι και σε κανένα υπο-κανάλι με οποιονδήποτε τρόπο, ανεξάρτητα από άλλα δικαιώματα στα υπο-κανάλια.</translation>
     </message>
     <message>
         <source>This represents the permission to join the channel. If you have a hierarchical channel structure, you might want to give everyone Traverse, but restrict Enter in the root of your hierarchy.</source>
-        <translation>Αυτό αντιπροσωπεύει την άδεια εισόδου στο κανάλι. Εάν έχετε μια ιεραρχική δομή καναλιού, ίσως θελήσετε να δώσετε σε όλους Διέλευση, αλλά περιορίστε την Είσοδο στη ρίζα της ιεραρχικής δομής σας.</translation>
+        <translation type="vanished">Αυτό αντιπροσωπεύει την άδεια εισόδου στο κανάλι. Εάν έχετε μια ιεραρχική δομή καναλιού, ίσως θελήσετε να δώσετε σε όλους Διέλευση, αλλά περιορίστε την Είσοδο στη ρίζα της ιεραρχικής δομής σας.</translation>
     </message>
     <message>
         <source>This represents the permission to speak in a channel. Users without this privilege will be suppressed by the server (seen as muted), and will be unable to speak until they are unmuted by someone with the appropriate privileges.</source>
-        <translation>Αυτό αντιπροσωπεύει την άδεια ομιλίας σε ένα κανάλι. Οι χρήστες χωρίς αυτό το προνόμιο θα κατασταλούν από τον διακομιστή (θα φανούν ως φιμωμένοι) και δεν θα μπορούν να μιλήσουν μέχρι να τους ξεφιμώσει κάποιος με τα κατάλληλα προνόμια.</translation>
+        <translation type="vanished">Αυτό αντιπροσωπεύει την άδεια ομιλίας σε ένα κανάλι. Οι χρήστες χωρίς αυτό το προνόμιο θα κατασταλούν από τον διακομιστή (θα φανούν ως φιμωμένοι) και δεν θα μπορούν να μιλήσουν μέχρι να τους ξεφιμώσει κάποιος με τα κατάλληλα προνόμια.</translation>
     </message>
     <message>
         <source>This represents the permission to whisper to this channel from the outside. This works exactly like the &lt;i&gt;speak&lt;/i&gt; privilege, but applies to packets spoken with the Whisper key held down. This may be used to broadcast to a hierarchy of channels without linking.</source>
-        <translation>Αυτό αντιπροσωπεύει την άδεια να ψιθυρίζει κανείς σε αυτό το κανάλι από έξω. Αυτό λειτουργεί ακριβώς όπως το προνόμιο&lt;i&gt;ομιλία&lt;/i&gt; , αλλά ισχύει για τα πακέτα που ομιλούνται με πατημένο το πλήκτρο Ψίθυρος. Αυτό μπορεί να χρησιμοποιηθεί για μετάδοση σε μια ιεραρχία καναλιών χωρίς συσχέτιση.</translation>
+        <translation type="vanished">Αυτό αντιπροσωπεύει την άδεια να ψιθυρίζει κανείς σε αυτό το κανάλι από έξω. Αυτό λειτουργεί ακριβώς όπως το προνόμιο&lt;i&gt;ομιλία&lt;/i&gt; , αλλά ισχύει για τα πακέτα που ομιλούνται με πατημένο το πλήκτρο Ψίθυρος. Αυτό μπορεί να χρησιμοποιηθεί για μετάδοση σε μια ιεραρχία καναλιών χωρίς συσχέτιση.</translation>
     </message>
     <message>
         <source>This represents the permission to mute and deafen other users. Once muted, a user will stay muted until he is unmuted by another privileged user or reconnects to the server.</source>
-        <translation>Αυτό αντιπροσωπεύει την άδεια φίμωσης και κώφωσης άλλων χρηστών. Μόλις ένας χρήστης φιμωθεί, θα παραμείνει φιμωμένος έως ότου ξεφιμωθεί από κάποιον προνομιούχο χρήστη ή επανασυνδεθεί με το διακομιστή.</translation>
+        <translation type="vanished">Αυτό αντιπροσωπεύει την άδεια φίμωσης και κώφωσης άλλων χρηστών. Μόλις ένας χρήστης φιμωθεί, θα παραμείνει φιμωμένος έως ότου ξεφιμωθεί από κάποιον προνομιούχο χρήστη ή επανασυνδεθεί με το διακομιστή.</translation>
     </message>
     <message>
         <source>This represents the permission to move a user to another channel or kick him from the server. To actually move the user, either the moving user must have Move privileges in the destination channel, or the user must normally be allowed to enter the channel. Users with this privilege can move users into channels the target user normally wouldn&apos;t have permission to enter.</source>
-        <translation>Αυτό αντιπροσωπεύει την άδεια μετακίνησης ενός χρήστη σε άλλο κανάλι ή να τον kick από το διακομιστή. Για να μετακινηθεί πραγματικά ο χρήστης, είτε ο χρήστης που κινεί πρέπει να έχει δικαιώματα Μετακίνησης στο κανάλι προορισμού είτε πρέπει να επιτρέπεται στον μεταικούμενο χρήστη να εισέλθει στο κανάλι κανονικά . Οι χρήστες με αυτό το προνόμιο μπορούν να μετακινήσουν χρήστες σε κανάλια, οι οποίοι συνήθως δεν θα έχουν άδεια εισόδου.</translation>
+        <translation type="vanished">Αυτό αντιπροσωπεύει την άδεια μετακίνησης ενός χρήστη σε άλλο κανάλι ή να τον kick από το διακομιστή. Για να μετακινηθεί πραγματικά ο χρήστης, είτε ο χρήστης που κινεί πρέπει να έχει δικαιώματα Μετακίνησης στο κανάλι προορισμού είτε πρέπει να επιτρέπεται στον μεταικούμενο χρήστη να εισέλθει στο κανάλι κανονικά . Οι χρήστες με αυτό το προνόμιο μπορούν να μετακινήσουν χρήστες σε κανάλια, οι οποίοι συνήθως δεν θα έχουν άδεια εισόδου.</translation>
     </message>
     <message>
         <source>This represents the permission to make sub-channels. The user making the sub-channel will be added to the admin group of the sub-channel.</source>
-        <translation>Αυτό αντιπροσωπεύει την άδεια για δημιουργία υπο-καναλιών. Ο χρήστης που δημιουργεί το δευτερεύον κανάλι θα προστεθεί στην ομάδα διαχείρισης του υπο-καναλιού.</translation>
+        <translation type="vanished">Αυτό αντιπροσωπεύει την άδεια για δημιουργία υπο-καναλιών. Ο χρήστης που δημιουργεί το δευτερεύον κανάλι θα προστεθεί στην ομάδα διαχείρισης του υπο-καναλιού.</translation>
     </message>
     <message>
         <source>This represents the permission to make a temporary subchannel. The user making the sub-channel will be added to the admin group of the sub-channel. Temporary channels are not stored and disappear when the last user leaves.</source>
-        <translation>Αυτό αντιπροσωπεύει την άδεια για δημιουργία ενός προσωρινού υπο-καναλιού. Ο χρήστης που δημιουργεί το υπο-κανάλι θα προστεθεί στην ομάδα διαχείρισης του δευτερεύοντος καναλιού. Τα προσωρινά κανάλια δεν αποθηκεύονται και εξαφανίζονται όταν ο τελευταίος χρήστης αποχωρήσει.</translation>
+        <translation type="vanished">Αυτό αντιπροσωπεύει την άδεια για δημιουργία ενός προσωρινού υπο-καναλιού. Ο χρήστης που δημιουργεί το υπο-κανάλι θα προστεθεί στην ομάδα διαχείρισης του δευτερεύοντος καναλιού. Τα προσωρινά κανάλια δεν αποθηκεύονται και εξαφανίζονται όταν ο τελευταίος χρήστης αποχωρήσει.</translation>
     </message>
     <message>
         <source>This represents the permission to link channels. Users in linked channels hear each other, as long as the speaking user has the &lt;i&gt;speak&lt;/i&gt; privilege in the channel of the listener. You need the link privilege in both channels to create a link, but just in either channel to remove it.</source>
-        <translation>Αυτό αντιπροσωπεύει την άδεια για συσχέτιση καναλιών. Οι χρήστες που βρίσκονται σε συσχετισμένα κανάλια ακούνε ο ένας τον άλλο, αρκεί αυτός που μιλάει να έχει το προνόμιο &lt;i&gt;ομιλία&lt;/i&gt; στο κανάλι του ακροατή. Χρειάζεται να έχετε το προνόμιο συσχέτισης και στα δύο κανάλια για να τα συσχετίσετε, αλλά αρκεί μόνο σε ένα για να τα αποσυσχετίσετε.</translation>
+        <translation type="vanished">Αυτό αντιπροσωπεύει την άδεια για συσχέτιση καναλιών. Οι χρήστες που βρίσκονται σε συσχετισμένα κανάλια ακούνε ο ένας τον άλλο, αρκεί αυτός που μιλάει να έχει το προνόμιο &lt;i&gt;ομιλία&lt;/i&gt; στο κανάλι του ακροατή. Χρειάζεται να έχετε το προνόμιο συσχέτισης και στα δύο κανάλια για να τα συσχετίσετε, αλλά αρκεί μόνο σε ένα για να τα αποσυσχετίσετε.</translation>
     </message>
     <message>
         <source>This represents the permission to write text messages to other users in this channel.</source>
-        <translation>Αυτό αντιπροσωπεύει την άδεια εγγραφής μηνυμάτων κειμένου σε άλλους χρήστες σε αυτό το κανάλι.</translation>
+        <translation type="vanished">Αυτό αντιπροσωπεύει την άδεια εγγραφής μηνυμάτων κειμένου σε άλλους χρήστες σε αυτό το κανάλι.</translation>
     </message>
     <message>
         <source>This represents the permission to forcibly remove users from the server.</source>
-        <translation>Αυτό αντιπροσωπεύει την άδεια για να αφαιρέσετε χρήστες από το διακομιστή.</translation>
+        <translation type="vanished">Αυτό αντιπροσωπεύει την άδεια για να αφαιρέσετε χρήστες από το διακομιστή.</translation>
     </message>
     <message>
         <source>This represents the permission to permanently remove users from the server.</source>
-        <translation>Αυτό αντιπροσωπεύει το δικαίωμα οριστικής αφαίρεσης χρηστών από το διακομιστή.</translation>
+        <translation type="vanished">Αυτό αντιπροσωπεύει το δικαίωμα οριστικής αφαίρεσης χρηστών από το διακομιστή.</translation>
     </message>
     <message>
         <source>This represents the permission to register and unregister users on the server.</source>
-        <translation>Αυτό αντιπροσωπεύει την άδεια για εγγραφή και κατάργηση εγγραφής χρηστών από το διακομιστή.</translation>
+        <translation type="vanished">Αυτό αντιπροσωπεύει την άδεια για εγγραφή και κατάργηση εγγραφής χρηστών από το διακομιστή.</translation>
     </message>
     <message>
         <source>This represents the permission to register oneself on the server.</source>
-        <translation>Αυτό αντιπροσωπεύει την άδεια να εγγραφεί κάποιος μόνος του στον διακομιστή.</translation>
+        <translation type="vanished">Αυτό αντιπροσωπεύει την άδεια να εγγραφεί κάποιος μόνος του στον διακομιστή.</translation>
     </message>
     <message>
         <source>Whisper</source>
-        <translation>Ψίθυρος</translation>
+        <translation type="vanished">Ψίθυρος</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>Μετακίνηση</translation>
+        <translation type="vanished">Μετακίνηση</translation>
     </message>
     <message>
         <source>Text message</source>
-        <translation>Μήνυμα κειμένου </translation>
+        <translation type="vanished">Μήνυμα κειμένου </translation>
     </message>
     <message>
         <source>Kick</source>
-        <translation>Kick</translation>
+        <translation type="vanished">Kick</translation>
     </message>
     <message>
         <source>Ban</source>
-        <translation>Ban</translation>
+        <translation type="vanished">Ban</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation>Εγγραφή του χρήστη</translation>
+        <translation type="vanished">Εγγραφή του χρήστη</translation>
     </message>
     <message>
         <source>Register Self</source>
-        <translation>Εγγραφή του εαυτού σας</translation>
+        <translation type="vanished">Εγγραφή του εαυτού σας</translation>
     </message>
     <message>
         <source>Write ACL</source>
-        <translation>Γράψιμο ACL</translation>
-    </message>
-    <message>
-        <source>This represents the permission to use the listen-feature allowing to listen to a channel without being in it.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Listen</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to reset the comment or avatar of a user.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reset User Content</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">Γράψιμο ACL</translation>
     </message>
 </context>
 <context>
@@ -3439,17 +3423,6 @@ Without this option enabled, using Mumble&apos;s global shortcuts in privileged 
     <name>GlobalShortcutEngine</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>GlobalShortcutMac</name>
-    <message>
-        <source>Mouse</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Keyboard</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7203,10 +7176,6 @@ To upgrade these files to their latest versions, click the button below.</source
         <source>Mumble failed to restart itself. Please restart it manually.</source>
         <translation>Το Mumble απέτυχε να επανεκκινήσει τον εαυτό του. Κάντε επανεκκίνηση χειροκίνητα.</translation>
     </message>
-    <message>
-        <source>Mumble is currently connected to a server</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QObject</name>
@@ -7309,18 +7278,10 @@ See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;th
     </message>
     <message>
         <source>Default Device</source>
-        <translation type="unfinished">Προεπιλεγμένη συσκευή</translation>
+        <translation type="obsolete">Προεπιλεγμένη συσκευή</translation>
     </message>
     <message>
         <source>This option works best when using built-in microphone and speaker.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied. Please allow Mumble to use the microphone by changing the settings in System Preferences -&gt; Security &amp; Privacy -&gt; Privacy -&gt; Microphone.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied due to system restrictions. You will not be ableto use the microphone in this session.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

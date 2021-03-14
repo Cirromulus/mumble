@@ -2585,147 +2585,139 @@ Sertifikanızı değiştirmek istediğinize emin misiniz?
     <name>ChanACL</name>
     <message>
         <source>None</source>
-        <translation>Boş</translation>
+        <translation type="vanished">Boş</translation>
     </message>
     <message>
         <source>Traverse</source>
-        <translation>Geçiş</translation>
+        <translation type="vanished">Geçiş</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>Gir</translation>
+        <translation type="vanished">Gir</translation>
     </message>
     <message>
         <source>Speak</source>
-        <translation>Konuş</translation>
+        <translation type="vanished">Konuş</translation>
     </message>
     <message>
         <source>Mute/Deafen</source>
-        <translation>Sustur/Sağır et</translation>
+        <translation type="vanished">Sustur/Sağır et</translation>
     </message>
     <message>
         <source>Make channel</source>
-        <translation>Kanal oluştur</translation>
+        <translation type="vanished">Kanal oluştur</translation>
     </message>
     <message>
         <source>Make temporary</source>
-        <translation>Geçici yap</translation>
+        <translation type="vanished">Geçici yap</translation>
     </message>
     <message>
         <source>Link channel</source>
-        <translation>Kanal bağla</translation>
+        <translation type="vanished">Kanal bağla</translation>
     </message>
     <message>
         <source>This represents no privileges.</source>
-        <translation>Bu, hiçbir izin olmadığını temsil eder.</translation>
+        <translation type="vanished">Bu, hiçbir izin olmadığını temsil eder.</translation>
     </message>
     <message>
         <source>This represents total access to the channel, including the ability to change group and ACL information. This privilege implies all other privileges.</source>
-        <translation>Grup değiştirme ve EKL verileri dahil olmak üzere, kanala mutlak erişimi temsil eder. Bu izin diğer tüm izinleri de içerir.</translation>
+        <translation type="vanished">Grup değiştirme ve EKL verileri dahil olmak üzere, kanala mutlak erişimi temsil eder. Bu izin diğer tüm izinleri de içerir.</translation>
     </message>
     <message>
         <source>This represents the permission to traverse the channel. If a user is denied this privilege, he will be unable to access this channel and any sub-channels in any way, regardless of other permissions in the sub-channels.</source>
-        <translation>Kanaldan geçiş yapma iznini temsil eder. Eğer kullanıcının bu izni yoksa, alt kanallardaki izinleri ne olursa olsun, bu kanala ve alt kanallara hiçbir şekilde erişemez.</translation>
+        <translation type="vanished">Kanaldan geçiş yapma iznini temsil eder. Eğer kullanıcının bu izni yoksa, alt kanallardaki izinleri ne olursa olsun, bu kanala ve alt kanallara hiçbir şekilde erişemez.</translation>
     </message>
     <message>
         <source>This represents the permission to join the channel. If you have a hierarchical channel structure, you might want to give everyone Traverse, but restrict Enter in the root of your hierarchy.</source>
-        <translation>Kanala katılma iznini temsil eder. Hiyerarşisel bir kanal yapısı söz konusuysa herkese geçiş izni vermek ve hiyerarşinizin köküne giriş iznini sınırlandırmak isteyebilirsiniz.</translation>
+        <translation type="vanished">Kanala katılma iznini temsil eder. Hiyerarşisel bir kanal yapısı söz konusuysa herkese geçiş izni vermek ve hiyerarşinizin köküne giriş iznini sınırlandırmak isteyebilirsiniz.</translation>
     </message>
     <message>
         <source>This represents the permission to speak in a channel. Users without this privilege will be suppressed by the server (seen as muted), and will be unable to speak until they are unmuted by someone with the appropriate privileges.</source>
-        <translation>Kanalda konuşma iznini temsil eder. Bu izni bulunmayan kullanıcılar sunucu tarafından susturulmuş olarak görünecekler ve gerekli izinleri olan birisi bu susturmayı kaldırmadığı sürece konuşamayacaklardır.</translation>
+        <translation type="vanished">Kanalda konuşma iznini temsil eder. Bu izni bulunmayan kullanıcılar sunucu tarafından susturulmuş olarak görünecekler ve gerekli izinleri olan birisi bu susturmayı kaldırmadığı sürece konuşamayacaklardır.</translation>
     </message>
     <message>
         <source>This represents the permission to whisper to this channel from the outside. This works exactly like the &lt;i&gt;speak&lt;/i&gt; privilege, but applies to packets spoken with the Whisper key held down. This may be used to broadcast to a hierarchy of channels without linking.</source>
-        <translation>Dışarıdan bu kanala fısıldama iznini temsil eder. Bu tıpkı &lt;i&gt;konuşma&lt;/i&gt; izni gibidir ancak sadece Fısıltı tuşu basıldığında konuşulan paketlere uygulanır. Bağlı olmayan bir kanal hiyerarşisine mesaj yayınlamak için kullanılabilir.</translation>
+        <translation type="vanished">Dışarıdan bu kanala fısıldama iznini temsil eder. Bu tıpkı &lt;i&gt;konuşma&lt;/i&gt; izni gibidir ancak sadece Fısıltı tuşu basıldığında konuşulan paketlere uygulanır. Bağlı olmayan bir kanal hiyerarşisine mesaj yayınlamak için kullanılabilir.</translation>
     </message>
     <message>
         <source>This represents the permission to mute and deafen other users. Once muted, a user will stay muted until he is unmuted by another privileged user or reconnects to the server.</source>
-        <translation>Diğer kullanıcıları susturmak ya da sağır etmek iznini temsil eder. Susturulan bir kullanıcı gerekli izinleri bulunan başka birisi tarafından bu durum kaldırılmadıkça ya da sunucuya tekrar bağlanmadıkça konuşamaz.</translation>
+        <translation type="vanished">Diğer kullanıcıları susturmak ya da sağır etmek iznini temsil eder. Susturulan bir kullanıcı gerekli izinleri bulunan başka birisi tarafından bu durum kaldırılmadıkça ya da sunucuya tekrar bağlanmadıkça konuşamaz.</translation>
     </message>
     <message>
         <source>This represents the permission to move a user to another channel or kick him from the server. To actually move the user, either the moving user must have Move privileges in the destination channel, or the user must normally be allowed to enter the channel. Users with this privilege can move users into channels the target user normally wouldn&apos;t have permission to enter.</source>
-        <translation>Bir kullanıcıyı başka bir kanala gönderme ya da sunucudan kovma iznini temsil eder. Kullanıcının gönderilebilmesi için ya gönderen kullanıcının hedef kanalda taşıma izni bulunması ya da gönderilen kullanıcının bu kanala giriş izni olması gerekir. Gönderme izni bulunan kullanıcılar diğer kişileri normalde giriş izinleri olmayan bir kanala gönderebilirler.</translation>
+        <translation type="vanished">Bir kullanıcıyı başka bir kanala gönderme ya da sunucudan kovma iznini temsil eder. Kullanıcının gönderilebilmesi için ya gönderen kullanıcının hedef kanalda taşıma izni bulunması ya da gönderilen kullanıcının bu kanala giriş izni olması gerekir. Gönderme izni bulunan kullanıcılar diğer kişileri normalde giriş izinleri olmayan bir kanala gönderebilirler.</translation>
     </message>
     <message>
         <source>This represents the permission to make sub-channels. The user making the sub-channel will be added to the admin group of the sub-channel.</source>
-        <translation>Alt kanal oluşturma iznini temsil eder. Alt kanalı oluşturan kullanıcı bu alt kanalın yöneticiler grubuna eklenir.</translation>
+        <translation type="vanished">Alt kanal oluşturma iznini temsil eder. Alt kanalı oluşturan kullanıcı bu alt kanalın yöneticiler grubuna eklenir.</translation>
     </message>
     <message>
         <source>This represents the permission to make a temporary subchannel. The user making the sub-channel will be added to the admin group of the sub-channel. Temporary channels are not stored and disappear when the last user leaves.</source>
-        <translation>Geçici bir alt kanal oluşturma iznini temsil eder. Alt kanalı oluşturan kullanıcı bu alt kanalın yöneticiler grubuna eklenir. Geçici kanallar saklanmaz ve son kullanıcı terk ettiğinde silinirler.</translation>
+        <translation type="vanished">Geçici bir alt kanal oluşturma iznini temsil eder. Alt kanalı oluşturan kullanıcı bu alt kanalın yöneticiler grubuna eklenir. Geçici kanallar saklanmaz ve son kullanıcı terk ettiğinde silinirler.</translation>
     </message>
     <message>
         <source>This represents the permission to link channels. Users in linked channels hear each other, as long as the speaking user has the &lt;i&gt;speak&lt;/i&gt; privilege in the channel of the listener. You need the link privilege in both channels to create a link, but just in either channel to remove it.</source>
-        <translation>Kanalları bağlama iznini temsil eder. Bağlantılı kanallardaki kullanıcılar, konuşan kullanıcının dinleyenlerin bulunduğu kanalda &lt;i&gt;konuşma&lt;/i&gt; izni varsa birbirlerini duyabilirler. Bağlantı yaratabilmek için her iki kanalda bağlama izniniz bulunması gerekir, ancak bağlantı kaldırmak için tek bir kanalda bu iznin bulunması yeterlidir.</translation>
+        <translation type="vanished">Kanalları bağlama iznini temsil eder. Bağlantılı kanallardaki kullanıcılar, konuşan kullanıcının dinleyenlerin bulunduğu kanalda &lt;i&gt;konuşma&lt;/i&gt; izni varsa birbirlerini duyabilirler. Bağlantı yaratabilmek için her iki kanalda bağlama izniniz bulunması gerekir, ancak bağlantı kaldırmak için tek bir kanalda bu iznin bulunması yeterlidir.</translation>
     </message>
     <message>
         <source>This represents the permission to write text messages to other users in this channel.</source>
-        <translation>Kanaldaki diğer kullanıcılara metin mesajı gönderme iznini temsil eder.</translation>
+        <translation type="vanished">Kanaldaki diğer kullanıcılara metin mesajı gönderme iznini temsil eder.</translation>
     </message>
     <message>
         <source>This represents the permission to forcibly remove users from the server.</source>
-        <translation>Sunucudan kullanıcı kovma iznini temsil eder.</translation>
+        <translation type="vanished">Sunucudan kullanıcı kovma iznini temsil eder.</translation>
     </message>
     <message>
         <source>This represents the permission to permanently remove users from the server.</source>
-        <translation>Sunucudan kullanıcı kovma ve dönmelerini engelleme, yani yasaklama iznini temsil eder.</translation>
+        <translation type="vanished">Sunucudan kullanıcı kovma ve dönmelerini engelleme, yani yasaklama iznini temsil eder.</translation>
     </message>
     <message>
         <source>This represents the permission to register and unregister users on the server.</source>
-        <translation>Sunucuda kullanıcı kaydetme ve oturum silme iznini temsil eder.</translation>
+        <translation type="vanished">Sunucuda kullanıcı kaydetme ve oturum silme iznini temsil eder.</translation>
     </message>
     <message>
         <source>This represents the permission to register oneself on the server.</source>
-        <translation>Sunucuda kendini kaydetme iznini temsil eder.</translation>
+        <translation type="vanished">Sunucuda kendini kaydetme iznini temsil eder.</translation>
     </message>
     <message>
         <source>Whisper</source>
-        <translation>Fısılda</translation>
+        <translation type="vanished">Fısılda</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>Taşınma</translation>
+        <translation type="vanished">Taşınma</translation>
     </message>
     <message>
         <source>Text message</source>
-        <translation>Metin mesajı</translation>
+        <translation type="vanished">Metin mesajı</translation>
     </message>
     <message>
         <source>Kick</source>
-        <translation>Kov</translation>
+        <translation type="vanished">Kov</translation>
     </message>
     <message>
         <source>Ban</source>
-        <translation>Yasakla</translation>
+        <translation type="vanished">Yasakla</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation>Kullanıcı kaydet</translation>
+        <translation type="vanished">Kullanıcı kaydet</translation>
     </message>
     <message>
         <source>Register Self</source>
-        <translation>Kendini kaydet</translation>
+        <translation type="vanished">Kendini kaydet</translation>
     </message>
     <message>
         <source>Write ACL</source>
-        <translation>EKL Yaz</translation>
+        <translation type="vanished">EKL Yaz</translation>
     </message>
     <message>
         <source>This represents the permission to use the listen-feature allowing to listen to a channel without being in it.</source>
-        <translation>Bu, bir kanalda bulunmadan o kanalı dinlemeye izin veren dinleme işlevi kullanma müsaadesini temsil eder.</translation>
+        <translation type="vanished">Bu, bir kanalda bulunmadan o kanalı dinlemeye izin veren dinleme işlevi kullanma müsaadesini temsil eder.</translation>
     </message>
     <message>
         <source>Listen</source>
-        <translation>Dinle</translation>
-    </message>
-    <message>
-        <source>This represents the permission to reset the comment or avatar of a user.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reset User Content</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">Dinle</translation>
     </message>
 </context>
 <context>
@@ -3441,17 +3433,6 @@ Bu seçenek seçilmediyse, yetkili programlarda Mumble&apos;ın genel kısayolla
     <message>
         <source>Unknown</source>
         <translation type="unfinished">Bilinmiyor</translation>
-    </message>
-</context>
-<context>
-    <name>GlobalShortcutMac</name>
-    <message>
-        <source>Mouse</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Keyboard</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7206,10 +7187,6 @@ Bu dosyaları son sürümlerine güncellemek için aşağıdaki düğmeyi tıkla
         <source>Mumble failed to restart itself. Please restart it manually.</source>
         <translation>Mumble kendini tekrar başlatamadı. Lütfen elle başlatınız.</translation>
     </message>
-    <message>
-        <source>Mumble is currently connected to a server</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QObject</name>
@@ -7312,18 +7289,10 @@ See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;th
     </message>
     <message>
         <source>Default Device</source>
-        <translation type="unfinished">Varsayılan cihaz</translation>
+        <translation type="obsolete">Varsayılan cihaz</translation>
     </message>
     <message>
         <source>This option works best when using built-in microphone and speaker.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied. Please allow Mumble to use the microphone by changing the settings in System Preferences -&gt; Security &amp; Privacy -&gt; Privacy -&gt; Microphone.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied due to system restrictions. You will not be ableto use the microphone in this session.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -208,6 +208,7 @@ protected:
 	unsigned int useInputChannels;
 	Settings::NoiseCancel noiseCancel;
 	static const unsigned int iSampleRate = SAMPLE_RATE;
+	// Samples per 10 ms
 	static const int iFrameSize           = SAMPLE_RATE / 100;
 
 	QMutex qmSpeex;

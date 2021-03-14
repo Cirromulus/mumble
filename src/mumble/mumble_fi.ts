@@ -2587,147 +2587,147 @@ Haluatko varmasti korvata varmenteen?
     <name>ChanACL</name>
     <message>
         <source>None</source>
-        <translation>Ei mitään</translation>
+        <translation type="vanished">Ei mitään</translation>
     </message>
     <message>
         <source>Traverse</source>
-        <translation>Läpikulku</translation>
+        <translation type="vanished">Läpikulku</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>Enter</translation>
+        <translation type="vanished">Enter</translation>
     </message>
     <message>
         <source>Speak</source>
-        <translation>Puhuminen</translation>
+        <translation type="vanished">Puhuminen</translation>
     </message>
     <message>
         <source>Mute/Deafen</source>
-        <translation>Mykistä</translation>
+        <translation type="vanished">Mykistä</translation>
     </message>
     <message>
         <source>Make channel</source>
-        <translation>Luo kanava</translation>
+        <translation type="vanished">Luo kanava</translation>
     </message>
     <message>
         <source>Make temporary</source>
-        <translation>Luo tilapäinen</translation>
+        <translation type="vanished">Luo tilapäinen</translation>
     </message>
     <message>
         <source>Link channel</source>
-        <translation>Liitä kanava</translation>
+        <translation type="vanished">Liitä kanava</translation>
     </message>
     <message>
         <source>This represents no privileges.</source>
-        <translation>Esittää ei etuoikeuksia. </translation>
+        <translation type="vanished">Esittää ei etuoikeuksia. </translation>
     </message>
     <message>
         <source>This represents total access to the channel, including the ability to change group and ACL information. This privilege implies all other privileges.</source>
-        <translation>Esittää täysiä oikeuksia kanavalle, sisältäen mahdollisuuden muuttaa ryhmän ja ACL-tietoja. Tämä etuoikeus sisältää kaikki muut etuoikeudet.</translation>
+        <translation type="vanished">Esittää täysiä oikeuksia kanavalle, sisältäen mahdollisuuden muuttaa ryhmän ja ACL-tietoja. Tämä etuoikeus sisältää kaikki muut etuoikeudet.</translation>
     </message>
     <message>
         <source>This represents the permission to traverse the channel. If a user is denied this privilege, he will be unable to access this channel and any sub-channels in any way, regardless of other permissions in the sub-channels.</source>
-        <translation>Ilmaisee oikeuden kanavan läpikulkemiseen. Jos käyttäjältä estetään tämä oikeus, hän ei pääse tälle kanavalle tai millekkään sen alikanaville, riippumatta alikanavien oikeuksista. </translation>
+        <translation type="vanished">Ilmaisee oikeuden kanavan läpikulkemiseen. Jos käyttäjältä estetään tämä oikeus, hän ei pääse tälle kanavalle tai millekkään sen alikanaville, riippumatta alikanavien oikeuksista. </translation>
     </message>
     <message>
         <source>This represents the permission to join the channel. If you have a hierarchical channel structure, you might want to give everyone Traverse, but restrict Enter in the root of your hierarchy.</source>
-        <translation>Ilmaisee oikeuden liittyä kanavalle. Mikäli sinulla on hierarkinen kanava rakenne, luultavasti haluat antaa kaikille läpikulku oikeudet, mutta estää pääsyn hierarkiasi juureen.</translation>
+        <translation type="vanished">Ilmaisee oikeuden liittyä kanavalle. Mikäli sinulla on hierarkinen kanava rakenne, luultavasti haluat antaa kaikille läpikulku oikeudet, mutta estää pääsyn hierarkiasi juureen.</translation>
     </message>
     <message>
         <source>This represents the permission to speak in a channel. Users without this privilege will be suppressed by the server (seen as muted), and will be unable to speak until they are unmuted by someone with the appropriate privileges.</source>
-        <translation>Esittää lupaa puhua kanavalla. Käyttäjät joilla ei ole tätä etuoikeutta, vaimennetaan palvelimen puolesta (näkyy mykistettynä), ja eivät voi puhua ennenkuin heidän mykistyksensä purkaa joku jolla on tähän oikeudet.</translation>
+        <translation type="vanished">Esittää lupaa puhua kanavalla. Käyttäjät joilla ei ole tätä etuoikeutta, vaimennetaan palvelimen puolesta (näkyy mykistettynä), ja eivät voi puhua ennenkuin heidän mykistyksensä purkaa joku jolla on tähän oikeudet.</translation>
     </message>
     <message>
         <source>This represents the permission to whisper to this channel from the outside. This works exactly like the &lt;i&gt;speak&lt;/i&gt; privilege, but applies to packets spoken with the Whisper key held down. This may be used to broadcast to a hierarchy of channels without linking.</source>
-        <translation>Antaa luvan kuiskata tälle kanavalle sen ulkopuolelta. Tämä oikeus toimii samanlailla kuin &lt;i&gt;puhe&lt;/i&gt; oikeus, mutta koskee vain puhetta, jonka aikana kuiskausnäppäintä painetaan. Kuiskaus pätee myös kanavan alikanaville ilman, että kanavia tarvitsee liittää.</translation>
+        <translation type="vanished">Antaa luvan kuiskata tälle kanavalle sen ulkopuolelta. Tämä oikeus toimii samanlailla kuin &lt;i&gt;puhe&lt;/i&gt; oikeus, mutta koskee vain puhetta, jonka aikana kuiskausnäppäintä painetaan. Kuiskaus pätee myös kanavan alikanaville ilman, että kanavia tarvitsee liittää.</translation>
     </message>
     <message>
         <source>This represents the permission to mute and deafen other users. Once muted, a user will stay muted until he is unmuted by another privileged user or reconnects to the server.</source>
-        <translation>Esittää lupaa mykistää ja hiljentää muita käyttäjiä. Kun käyttäjä mykistetään, mykistys pysyy niin kauan kunnes etuoikeutettu käyttäjä poistaa mykistyksen, tai käyttäjä yhdistää palvelimelle uudelleen.</translation>
+        <translation type="vanished">Esittää lupaa mykistää ja hiljentää muita käyttäjiä. Kun käyttäjä mykistetään, mykistys pysyy niin kauan kunnes etuoikeutettu käyttäjä poistaa mykistyksen, tai käyttäjä yhdistää palvelimelle uudelleen.</translation>
     </message>
     <message>
         <source>This represents the permission to move a user to another channel or kick him from the server. To actually move the user, either the moving user must have Move privileges in the destination channel, or the user must normally be allowed to enter the channel. Users with this privilege can move users into channels the target user normally wouldn&apos;t have permission to enter.</source>
-        <translation>Esittää lupaa siirtää käyttäjä toiselle kanavalle tai poistaa hänet palvelimelta. Käyttäjän siirtämiseen, joko siirtävällä käyttäjällä tulee olla Siirto -oikeudet kohdekanavassa, tai siirrettävän käyttäjän tulee olla sallittua liittyä kanavalle. Tämän oikeuden käyttäjät voivat siirtää käyttäjiä kanaville, joille käyttäjä ei normaalioloissa voisi liittyä. </translation>
+        <translation type="vanished">Esittää lupaa siirtää käyttäjä toiselle kanavalle tai poistaa hänet palvelimelta. Käyttäjän siirtämiseen, joko siirtävällä käyttäjällä tulee olla Siirto -oikeudet kohdekanavassa, tai siirrettävän käyttäjän tulee olla sallittua liittyä kanavalle. Tämän oikeuden käyttäjät voivat siirtää käyttäjiä kanaville, joille käyttäjä ei normaalioloissa voisi liittyä. </translation>
     </message>
     <message>
         <source>This represents the permission to make sub-channels. The user making the sub-channel will be added to the admin group of the sub-channel.</source>
-        <translation>Esittää lupaa tehdä alikanavia. Alikanavan luova käyttäjä lisätään alikanavan ylläpitoryhmään.</translation>
+        <translation type="vanished">Esittää lupaa tehdä alikanavia. Alikanavan luova käyttäjä lisätään alikanavan ylläpitoryhmään.</translation>
     </message>
     <message>
         <source>This represents the permission to make a temporary subchannel. The user making the sub-channel will be added to the admin group of the sub-channel. Temporary channels are not stored and disappear when the last user leaves.</source>
-        <translation>Esittää lupaa tehdä väliaikaisen alikanavan. Alikanavan luova käyttäjä lisätään alikanavan ylläpitoryhmään. Väliaikaisia kanavia ei tallenneta, ja ne katoavat kun viimeinen käyttäjä poistuu.</translation>
+        <translation type="vanished">Esittää lupaa tehdä väliaikaisen alikanavan. Alikanavan luova käyttäjä lisätään alikanavan ylläpitoryhmään. Väliaikaisia kanavia ei tallenneta, ja ne katoavat kun viimeinen käyttäjä poistuu.</translation>
     </message>
     <message>
         <source>This represents the permission to link channels. Users in linked channels hear each other, as long as the speaking user has the &lt;i&gt;speak&lt;/i&gt; privilege in the channel of the listener. You need the link privilege in both channels to create a link, but just in either channel to remove it.</source>
-        <translation>Ilmaisee oikeuden liittää kanavia toisiinsa. Käyttäjät liitetyillä kanavilla kuulevat toisensa, kunhan puhujalla on &lt;i&gt;puhe&lt;/i&gt; oikeus kuulijoiden kanavilla. Kanavien liittämiseen tarvitaan liittämisoikeudet molemille kanaville, mutta sen purkamiseen riittää oikeudet vain toisella kanavista.</translation>
+        <translation type="vanished">Ilmaisee oikeuden liittää kanavia toisiinsa. Käyttäjät liitetyillä kanavilla kuulevat toisensa, kunhan puhujalla on &lt;i&gt;puhe&lt;/i&gt; oikeus kuulijoiden kanavilla. Kanavien liittämiseen tarvitaan liittämisoikeudet molemille kanaville, mutta sen purkamiseen riittää oikeudet vain toisella kanavista.</translation>
     </message>
     <message>
         <source>This represents the permission to write text messages to other users in this channel.</source>
-        <translation>Esittää lupaa kirjoittaa viesti toisille käyttäjille samalla kanavalla.</translation>
+        <translation type="vanished">Esittää lupaa kirjoittaa viesti toisille käyttäjille samalla kanavalla.</translation>
     </message>
     <message>
         <source>This represents the permission to forcibly remove users from the server.</source>
-        <translation>Esittää lupaa poistaa käyttäjiä palvelimelta.</translation>
+        <translation type="vanished">Esittää lupaa poistaa käyttäjiä palvelimelta.</translation>
     </message>
     <message>
         <source>This represents the permission to permanently remove users from the server.</source>
-        <translation>Esittää lupaa pysyvästi estää käyttäjän pääsy palvelimelle.</translation>
+        <translation type="vanished">Esittää lupaa pysyvästi estää käyttäjän pääsy palvelimelle.</translation>
     </message>
     <message>
         <source>This represents the permission to register and unregister users on the server.</source>
-        <translation>Esittää lupaa rekisteröidä käyttäjiä että poistaa käyttäjien rekisteröinti palvelimella.</translation>
+        <translation type="vanished">Esittää lupaa rekisteröidä käyttäjiä että poistaa käyttäjien rekisteröinti palvelimella.</translation>
     </message>
     <message>
         <source>This represents the permission to register oneself on the server.</source>
-        <translation>Esittää lupaa itsensä rekisteröintiin palvelimella.</translation>
+        <translation type="vanished">Esittää lupaa itsensä rekisteröintiin palvelimella.</translation>
     </message>
     <message>
         <source>Whisper</source>
-        <translation>Kuiskaa</translation>
+        <translation type="vanished">Kuiskaa</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>Siirrä</translation>
+        <translation type="vanished">Siirrä</translation>
     </message>
     <message>
         <source>Text message</source>
-        <translation>Tekstiviesti</translation>
+        <translation type="vanished">Tekstiviesti</translation>
     </message>
     <message>
         <source>Kick</source>
-        <translation>Potkaise</translation>
+        <translation type="vanished">Potkaise</translation>
     </message>
     <message>
         <source>Ban</source>
-        <translation>Estä</translation>
+        <translation type="vanished">Estä</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation>Rekisteröi käyttäjä</translation>
+        <translation type="vanished">Rekisteröi käyttäjä</translation>
     </message>
     <message>
         <source>Register Self</source>
-        <translation>Rekisteröi itsesi</translation>
+        <translation type="vanished">Rekisteröi itsesi</translation>
     </message>
     <message>
         <source>Write ACL</source>
-        <translation>Kirjoita ACL</translation>
+        <translation type="vanished">Kirjoita ACL</translation>
     </message>
     <message>
         <source>This represents the permission to use the listen-feature allowing to listen to a channel without being in it.</source>
-        <translation>Tämä kuvaa oikeutta käyttää kuunteluominaisuutta, mikä mahdollistaa kanavan kuuntelun ilman että on kyseisessä kanavassa.</translation>
+        <translation type="vanished">Tämä kuvaa oikeutta käyttää kuunteluominaisuutta, mikä mahdollistaa kanavan kuuntelun ilman että on kyseisessä kanavassa.</translation>
     </message>
     <message>
         <source>Listen</source>
-        <translation>Kuuntele</translation>
+        <translation type="vanished">Kuuntele</translation>
     </message>
     <message>
         <source>This represents the permission to reset the comment or avatar of a user.</source>
-        <translation>Tämä kuvaa oikeutta poistaa käyttäjän kommentti tai profiilikuva.</translation>
+        <translation type="vanished">Tämä kuvaa oikeutta poistaa käyttäjän kommentti tai profiilikuva.</translation>
     </message>
     <message>
         <source>Reset User Content</source>
-        <translation>Poista käyttäjän sisältö</translation>
+        <translation type="vanished">Poista käyttäjän sisältö</translation>
     </message>
 </context>
 <context>
@@ -3449,11 +3449,11 @@ Ilman tätä asetusta järjestelmänlaajuiset pikanäppäimet eivät toimi kysei
     <name>GlobalShortcutMac</name>
     <message>
         <source>Mouse</source>
-        <translation>Hiiri</translation>
+        <translation type="vanished">Hiiri</translation>
     </message>
     <message>
         <source>Keyboard</source>
-        <translation>Näppäimistö</translation>
+        <translation type="vanished">Näppäimistö</translation>
     </message>
 </context>
 <context>
@@ -7291,7 +7291,7 @@ Paina alapuolen napista päivittääksesi Overlayn tiedostot viimeisimpään ver
     </message>
     <message>
         <source>Mumble is currently connected to a server</source>
-        <translation>Mumble on tällä hetkellä yhdistynyt palvelimeen</translation>
+        <translation type="vanished">Mumble on tällä hetkellä yhdistynyt palvelimeen</translation>
     </message>
 </context>
 <context>
@@ -7396,7 +7396,7 @@ Lisätietoa löydät &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_M
     </message>
     <message>
         <source>Default Device</source>
-        <translation>Oletuslaite</translation>
+        <translation type="vanished">Oletuslaite</translation>
     </message>
     <message>
         <source>This option works best when using built-in microphone and speaker.</source>
@@ -7404,11 +7404,11 @@ Lisätietoa löydät &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_M
     </message>
     <message>
         <source>Access to the microphone was denied. Please allow Mumble to use the microphone by changing the settings in System Preferences -&gt; Security &amp; Privacy -&gt; Privacy -&gt; Microphone.</source>
-        <translation type="unfinished">Pääsy mikrofoniin estettiin. Anna Mumblelle lupa käyttää mikrofonia muuttamalla asetuksia Järjestelmän asetukset -&gt; Turvallisuus ja yksityisyys -&gt; Yksityisyys -&gt; Mikrofoni.</translation>
+        <translation type="obsolete">Pääsy mikrofoniin estettiin. Anna Mumblelle lupa käyttää mikrofonia muuttamalla asetuksia Järjestelmän asetukset -&gt; Turvallisuus ja yksityisyys -&gt; Yksityisyys -&gt; Mikrofoni.</translation>
     </message>
     <message>
         <source>Access to the microphone was denied due to system restrictions. You will not be ableto use the microphone in this session.</source>
-        <translation>Pääsy mikrofoniin estettiin järjestelmän rajoitusten vuoksi. Et voi käyttää mikrofonia tässä istunnossa.</translation>
+        <translation type="vanished">Pääsy mikrofoniin estettiin järjestelmän rajoitusten vuoksi. Et voi käyttää mikrofonia tässä istunnossa.</translation>
     </message>
     <message>
         <source>If enabled this tries to cancel out echo from the audio stream.</source>

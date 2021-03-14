@@ -2553,147 +2553,147 @@ Are you sure you wish to replace your certificate?
     <name>ChanACL</name>
     <message>
         <source>None</source>
-        <translation>Нет</translation>
+        <translation type="vanished">Нет</translation>
     </message>
     <message>
         <source>Traverse</source>
-        <translation>Доcтуп</translation>
+        <translation type="vanished">Доcтуп</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>Вход</translation>
+        <translation type="vanished">Вход</translation>
     </message>
     <message>
         <source>Speak</source>
-        <translation>Говорить</translation>
+        <translation type="vanished">Говорить</translation>
     </message>
     <message>
         <source>Mute/Deafen</source>
-        <translation>Выключать микрофон/звук</translation>
+        <translation type="vanished">Выключать микрофон/звук</translation>
     </message>
     <message>
         <source>Make channel</source>
-        <translation>Создавать канал</translation>
+        <translation type="vanished">Создавать канал</translation>
     </message>
     <message>
         <source>Make temporary</source>
-        <translation>Создавать временный канал</translation>
+        <translation type="vanished">Создавать временный канал</translation>
     </message>
     <message>
         <source>Link channel</source>
-        <translation>Связывать канал</translation>
+        <translation type="vanished">Связывать канал</translation>
     </message>
     <message>
         <source>This represents no privileges.</source>
-        <translation>Представляет отсутствие привелегий.</translation>
+        <translation type="vanished">Представляет отсутствие привелегий.</translation>
     </message>
     <message>
         <source>This represents total access to the channel, including the ability to change group and ACL information. This privilege implies all other privileges.</source>
-        <translation>Предоставляет полный доступ к каналу, включая возможность изменять информацию о группах и СУД. Эта привилегия включает все привилегии.</translation>
+        <translation type="vanished">Предоставляет полный доступ к каналу, включая возможность изменять информацию о группах и СУД. Эта привилегия включает все привилегии.</translation>
     </message>
     <message>
         <source>This represents the permission to traverse the channel. If a user is denied this privilege, he will be unable to access this channel and any sub-channels in any way, regardless of other permissions in the sub-channels.</source>
-        <translation>Предоставляет разрешение доступа к каналу. Если у пользователя нет такой привилегии, он никак не сможет получить доступ к каналу и подканалам, независимо от разрешений подканалов.</translation>
+        <translation type="vanished">Предоставляет разрешение доступа к каналу. Если у пользователя нет такой привилегии, он никак не сможет получить доступ к каналу и подканалам, независимо от разрешений подканалов.</translation>
     </message>
     <message>
         <source>This represents the permission to join the channel. If you have a hierarchical channel structure, you might want to give everyone Traverse, but restrict Enter in the root of your hierarchy.</source>
-        <translation>Предоставляет разрешение входить на канал. Если у канала иерархическая структура, Вы можете дать каждому право доступа к каналу, но ограничивать Вход в корне вашей иерархии.</translation>
+        <translation type="vanished">Предоставляет разрешение входить на канал. Если у канала иерархическая структура, Вы можете дать каждому право доступа к каналу, но ограничивать Вход в корне вашей иерархии.</translation>
     </message>
     <message>
         <source>This represents the permission to speak in a channel. Users without this privilege will be suppressed by the server (seen as muted), and will be unable to speak until they are unmuted by someone with the appropriate privileges.</source>
-        <translation>Предоставляет разрешение говорить на канале. Пользователи без этой привелегии будут заглушены сервером, и неспособны будут говорить, пока не получат разрешение от кого-то, имеющего соответствующие привелегии.</translation>
+        <translation type="vanished">Предоставляет разрешение говорить на канале. Пользователи без этой привелегии будут заглушены сервером, и неспособны будут говорить, пока не получат разрешение от кого-то, имеющего соответствующие привелегии.</translation>
     </message>
     <message>
         <source>This represents the permission to whisper to this channel from the outside. This works exactly like the &lt;i&gt;speak&lt;/i&gt; privilege, but applies to packets spoken with the Whisper key held down. This may be used to broadcast to a hierarchy of channels without linking.</source>
-        <translation>Предоставляет разрешение шептать в этот канал из другого канала. Это работает точно также, как право &lt;i&gt;Говорить&lt;/i&gt;, но применяется к речи при нажатой клавиши Шёпота. Это может быть использовано для того чтобы объявить что-то в дерево каналов без необходимости их связывания.</translation>
+        <translation type="vanished">Предоставляет разрешение шептать в этот канал из другого канала. Это работает точно также, как право &lt;i&gt;Говорить&lt;/i&gt;, но применяется к речи при нажатой клавиши Шёпота. Это может быть использовано для того чтобы объявить что-то в дерево каналов без необходимости их связывания.</translation>
     </message>
     <message>
         <source>This represents the permission to mute and deafen other users. Once muted, a user will stay muted until he is unmuted by another privileged user or reconnects to the server.</source>
-        <translation>Даёт разрешение выключать микрофон или звук у других пользователей. Звук останется выключен у пользователя до снятия состояния другим привелегированным пользователем, или до переподключения к серверу.</translation>
+        <translation type="vanished">Даёт разрешение выключать микрофон или звук у других пользователей. Звук останется выключен у пользователя до снятия состояния другим привелегированным пользователем, или до переподключения к серверу.</translation>
     </message>
     <message>
         <source>This represents the permission to move a user to another channel or kick him from the server. To actually move the user, either the moving user must have Move privileges in the destination channel, or the user must normally be allowed to enter the channel. Users with this privilege can move users into channels the target user normally wouldn&apos;t have permission to enter.</source>
-        <translation>Предоставляет разрешение перемещать пользователя в другой канал или выкидывать его с сервера. Чтобы переместить пользователя в другой канал, перемещающий пользователь должен иметь привелегии Перемещения в канале назначения, или пользователь должен иметь право входить в этот канал. Пользователь с этой привилегией может перемещать пользователей в каналы, в которые перемещаемому пользователю доступ обычно закрыт.</translation>
+        <translation type="vanished">Предоставляет разрешение перемещать пользователя в другой канал или выкидывать его с сервера. Чтобы переместить пользователя в другой канал, перемещающий пользователь должен иметь привелегии Перемещения в канале назначения, или пользователь должен иметь право входить в этот канал. Пользователь с этой привилегией может перемещать пользователей в каналы, в которые перемещаемому пользователю доступ обычно закрыт.</translation>
     </message>
     <message>
         <source>This represents the permission to make sub-channels. The user making the sub-channel will be added to the admin group of the sub-channel.</source>
-        <translation>Предоставляет разрешение создавать подканалы. Пользователь, создавший подканал, будет добавлен в группу admin подканала.</translation>
+        <translation type="vanished">Предоставляет разрешение создавать подканалы. Пользователь, создавший подканал, будет добавлен в группу admin подканала.</translation>
     </message>
     <message>
         <source>This represents the permission to make a temporary subchannel. The user making the sub-channel will be added to the admin group of the sub-channel. Temporary channels are not stored and disappear when the last user leaves.</source>
-        <translation>Предоставляет разрешение создавать временный подканал. Пользователь, создавший временный подканал, будет добавлен в группу admin подканала. Временные каналы исчезают, когда все пользователи их покинут.</translation>
+        <translation type="vanished">Предоставляет разрешение создавать временный подканал. Пользователь, создавший временный подканал, будет добавлен в группу admin подканала. Временные каналы исчезают, когда все пользователи их покинут.</translation>
     </message>
     <message>
         <source>This represents the permission to link channels. Users in linked channels hear each other, as long as the speaking user has the &lt;i&gt;speak&lt;/i&gt; privilege in the channel of the listener. You need the link privilege in both channels to create a link, but just in either channel to remove it.</source>
-        <translation>Предоставляет разрешение связывать каналы. Пользователи в связанных каналах будут слышать друг друга, если пользователь, который говорит, имеет право &lt;i&gt;Говорить&lt;/i&gt; в канал того, кто слушает. Необходимо иметь разрешение Связывать в обоих каналах, чтобы создать связь, и только в одном из каналов, чтобы удалить связь.</translation>
+        <translation type="vanished">Предоставляет разрешение связывать каналы. Пользователи в связанных каналах будут слышать друг друга, если пользователь, который говорит, имеет право &lt;i&gt;Говорить&lt;/i&gt; в канал того, кто слушает. Необходимо иметь разрешение Связывать в обоих каналах, чтобы создать связь, и только в одном из каналов, чтобы удалить связь.</translation>
     </message>
     <message>
         <source>This represents the permission to write text messages to other users in this channel.</source>
-        <translation>Предоставляет разрешение отправлять текстовое сообщение другим пользователям канала.</translation>
+        <translation type="vanished">Предоставляет разрешение отправлять текстовое сообщение другим пользователям канала.</translation>
     </message>
     <message>
         <source>This represents the permission to forcibly remove users from the server.</source>
-        <translation>Предоставляет разрешение удалять пользователей с сервера.</translation>
+        <translation type="vanished">Предоставляет разрешение удалять пользователей с сервера.</translation>
     </message>
     <message>
         <source>This represents the permission to permanently remove users from the server.</source>
-        <translation>Предоставляет разрешение постоянно удалять пользователей с сервера.</translation>
+        <translation type="vanished">Предоставляет разрешение постоянно удалять пользователей с сервера.</translation>
     </message>
     <message>
         <source>This represents the permission to register and unregister users on the server.</source>
-        <translation>Предоставляет разрешение регистрировать и отменять регистрацию пользователей на сервере.</translation>
+        <translation type="vanished">Предоставляет разрешение регистрировать и отменять регистрацию пользователей на сервере.</translation>
     </message>
     <message>
         <source>This represents the permission to register oneself on the server.</source>
-        <translation>Предоставляет разрешение регистрировать себя на сервере.</translation>
+        <translation type="vanished">Предоставляет разрешение регистрировать себя на сервере.</translation>
     </message>
     <message>
         <source>Whisper</source>
-        <translation>Шептать</translation>
+        <translation type="vanished">Шептать</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>Перемещать</translation>
+        <translation type="vanished">Перемещать</translation>
     </message>
     <message>
         <source>Text message</source>
-        <translation>Сообщение</translation>
+        <translation type="vanished">Сообщение</translation>
     </message>
     <message>
         <source>Kick</source>
-        <translation>Выкидывать</translation>
+        <translation type="vanished">Выкидывать</translation>
     </message>
     <message>
         <source>Ban</source>
-        <translation>Банить</translation>
+        <translation type="vanished">Банить</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation>Зарегистрировать пользователя</translation>
+        <translation type="vanished">Зарегистрировать пользователя</translation>
     </message>
     <message>
         <source>Register Self</source>
-        <translation>Зарегистрироваться</translation>
+        <translation type="vanished">Зарегистрироваться</translation>
     </message>
     <message>
         <source>Write ACL</source>
-        <translation>Изменять СУД</translation>
+        <translation type="vanished">Изменять СУД</translation>
     </message>
     <message>
         <source>This represents the permission to use the listen-feature allowing to listen to a channel without being in it.</source>
-        <translation>Предоставляет разрешение использовать функцию прослушивания, позволяющей прослушивать канал, не находясь в нем.</translation>
+        <translation type="vanished">Предоставляет разрешение использовать функцию прослушивания, позволяющей прослушивать канал, не находясь в нем.</translation>
     </message>
     <message>
         <source>Listen</source>
-        <translation>Слушать</translation>
+        <translation type="vanished">Слушать</translation>
     </message>
     <message>
         <source>This represents the permission to reset the comment or avatar of a user.</source>
-        <translation>Предоставляет разрешение удалить комментарий или аватар пользователя.</translation>
+        <translation type="vanished">Предоставляет разрешение удалить комментарий или аватар пользователя.</translation>
     </message>
     <message>
         <source>Reset User Content</source>
-        <translation>Удалить данные пользователя</translation>
+        <translation type="vanished">Удалить данные пользователя</translation>
     </message>
 </context>
 <context>
@@ -3411,11 +3411,11 @@ Without this option enabled, using Mumble&apos;s global shortcuts in privileged 
     <name>GlobalShortcutMac</name>
     <message>
         <source>Mouse</source>
-        <translation>Мышь</translation>
+        <translation type="vanished">Мышь</translation>
     </message>
     <message>
         <source>Keyboard</source>
-        <translation>Клавиатура</translation>
+        <translation type="vanished">Клавиатура</translation>
     </message>
 </context>
 <context>
@@ -7226,7 +7226,7 @@ To upgrade these files to their latest versions, click the button below.</source
     </message>
     <message>
         <source>Mumble is currently connected to a server</source>
-        <translation>Mumble в настоящее время подключен к серверу</translation>
+        <translation type="vanished">Mumble в настоящее время подключен к серверу</translation>
     </message>
 </context>
 <context>
@@ -7331,7 +7331,7 @@ See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;th
     </message>
     <message>
         <source>Default Device</source>
-        <translation>Устройство по умолчанию</translation>
+        <translation type="vanished">Устройство по умолчанию</translation>
     </message>
     <message>
         <source>This option works best when using built-in microphone and speaker.</source>
@@ -7339,11 +7339,11 @@ See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;th
     </message>
     <message>
         <source>Access to the microphone was denied. Please allow Mumble to use the microphone by changing the settings in System Preferences -&gt; Security &amp; Privacy -&gt; Privacy -&gt; Microphone.</source>
-        <translation>Доступ к микрофону запрещен. Разрешите Mumble использовать микрофон, изменив настройки в Системных настройках -&gt; Безопасность и конфиденциальность -&gt; Конфиденциальность -&gt; Микрофон.</translation>
+        <translation type="vanished">Доступ к микрофону запрещен. Разрешите Mumble использовать микрофон, изменив настройки в Системных настройках -&gt; Безопасность и конфиденциальность -&gt; Конфиденциальность -&gt; Микрофон.</translation>
     </message>
     <message>
         <source>Access to the microphone was denied due to system restrictions. You will not be ableto use the microphone in this session.</source>
-        <translation>Доступ к микрофону запрещен из-за системных ограничений. Вы не сможете использовать микрофон в этом сеансе.</translation>
+        <translation type="vanished">Доступ к микрофону запрещен из-за системных ограничений. Вы не сможете использовать микрофон в этом сеансе.</translation>
     </message>
     <message>
         <source>If enabled this tries to cancel out echo from the audio stream.</source>

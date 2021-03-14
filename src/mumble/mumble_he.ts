@@ -2584,147 +2584,131 @@ Are you sure you wish to replace your certificate?
     <name>ChanACL</name>
     <message>
         <source>None</source>
-        <translation>אין</translation>
+        <translation type="vanished">אין</translation>
     </message>
     <message>
         <source>Traverse</source>
-        <translation>מעבר</translation>
+        <translation type="vanished">מעבר</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>כניסה</translation>
+        <translation type="vanished">כניסה</translation>
     </message>
     <message>
         <source>Speak</source>
-        <translation>דיבור</translation>
+        <translation type="vanished">דיבור</translation>
     </message>
     <message>
         <source>Mute/Deafen</source>
-        <translation>השתק/החרש</translation>
+        <translation type="vanished">השתק/החרש</translation>
     </message>
     <message>
         <source>Make channel</source>
-        <translation>יצירת ערוץ</translation>
+        <translation type="vanished">יצירת ערוץ</translation>
     </message>
     <message>
         <source>Make temporary</source>
-        <translation>יצירת ערוץ זמני</translation>
+        <translation type="vanished">יצירת ערוץ זמני</translation>
     </message>
     <message>
         <source>Link channel</source>
-        <translation>קישור ערוץ</translation>
+        <translation type="vanished">קישור ערוץ</translation>
     </message>
     <message>
         <source>This represents no privileges.</source>
-        <translation>מייצג אפס הרשאות.</translation>
+        <translation type="vanished">מייצג אפס הרשאות.</translation>
     </message>
     <message>
         <source>This represents total access to the channel, including the ability to change group and ACL information. This privilege implies all other privileges.</source>
-        <translation>מייצג גישה מלאה לערוץ, כולל היכולת לשנות את קבוצתו ואת ה-ACL שלו. הרשאה זו מכילה את כל שאר ההרשאות.</translation>
+        <translation type="vanished">מייצג גישה מלאה לערוץ, כולל היכולת לשנות את קבוצתו ואת ה-ACL שלו. הרשאה זו מכילה את כל שאר ההרשאות.</translation>
     </message>
     <message>
         <source>This represents the permission to traverse the channel. If a user is denied this privilege, he will be unable to access this channel and any sub-channels in any way, regardless of other permissions in the sub-channels.</source>
-        <translation>מייצג את ההרשאה לעבור בערוץ. אם למשתמש אין את ההרשאה הזו, הוא לא יוכל להצטרף לערוץ הזה ולכל תת-ערוץ שלו בכל דרך, ללא קשר להרשאות בתת ערוצים.</translation>
+        <translation type="vanished">מייצג את ההרשאה לעבור בערוץ. אם למשתמש אין את ההרשאה הזו, הוא לא יוכל להצטרף לערוץ הזה ולכל תת-ערוץ שלו בכל דרך, ללא קשר להרשאות בתת ערוצים.</translation>
     </message>
     <message>
         <source>This represents the permission to join the channel. If you have a hierarchical channel structure, you might want to give everyone Traverse, but restrict Enter in the root of your hierarchy.</source>
-        <translation>מייצג את ההרשאה להכנס לערוץ. אם יש לשרת מבנה ערוצים היררכי, אולי תרצו לתת לכולם גישת מעבר בשרת, אך להגביל את כניסתם לערוץ השורש.</translation>
+        <translation type="vanished">מייצג את ההרשאה להכנס לערוץ. אם יש לשרת מבנה ערוצים היררכי, אולי תרצו לתת לכולם גישת מעבר בשרת, אך להגביל את כניסתם לערוץ השורש.</translation>
     </message>
     <message>
         <source>This represents the permission to speak in a channel. Users without this privilege will be suppressed by the server (seen as muted), and will be unable to speak until they are unmuted by someone with the appropriate privileges.</source>
-        <translation>מייצג את ההרשאה לדבר בערוץ. משתמשים שאין להם את ההרשאה הזו יושתקו על ידי השרת (סימן השתק עם איקס ירוק), ולא יוכלו לדבר אלא אם משתמש בעל הרשאה מתאימה יבטל את השתקתם.</translation>
+        <translation type="vanished">מייצג את ההרשאה לדבר בערוץ. משתמשים שאין להם את ההרשאה הזו יושתקו על ידי השרת (סימן השתק עם איקס ירוק), ולא יוכלו לדבר אלא אם משתמש בעל הרשאה מתאימה יבטל את השתקתם.</translation>
     </message>
     <message>
         <source>This represents the permission to whisper to this channel from the outside. This works exactly like the &lt;i&gt;speak&lt;/i&gt; privilege, but applies to packets spoken with the Whisper key held down. This may be used to broadcast to a hierarchy of channels without linking.</source>
-        <translation>מייצג את ההרשאה ללחוש לערוץ הזה מערוץ אחר. הרשאה זו עובדת בדיוק כמו הרשאת ה&lt;i&gt;הדיבור&lt;/i&gt;, אך מיושמת לקול שמועבר בעזרת מקש הלחישה. ניתן להשתמש בהרשאה זו כדי לשדר לקבוצה שלמה של ערוצים ללא צורך בקישור.</translation>
+        <translation type="vanished">מייצג את ההרשאה ללחוש לערוץ הזה מערוץ אחר. הרשאה זו עובדת בדיוק כמו הרשאת ה&lt;i&gt;הדיבור&lt;/i&gt;, אך מיושמת לקול שמועבר בעזרת מקש הלחישה. ניתן להשתמש בהרשאה זו כדי לשדר לקבוצה שלמה של ערוצים ללא צורך בקישור.</translation>
     </message>
     <message>
         <source>This represents the permission to mute and deafen other users. Once muted, a user will stay muted until he is unmuted by another privileged user or reconnects to the server.</source>
-        <translation>מייצג את ההרשאה להשתיק או להחריש משתמשים אחרים. כשמשתמש מושתק, הוא ישאר כך עד שתוסר ההשתקה על ידי משתמש בעל גישות או עד שיתחבר מחדש לשרת.</translation>
+        <translation type="vanished">מייצג את ההרשאה להשתיק או להחריש משתמשים אחרים. כשמשתמש מושתק, הוא ישאר כך עד שתוסר ההשתקה על ידי משתמש בעל גישות או עד שיתחבר מחדש לשרת.</translation>
     </message>
     <message>
         <source>This represents the permission to move a user to another channel or kick him from the server. To actually move the user, either the moving user must have Move privileges in the destination channel, or the user must normally be allowed to enter the channel. Users with this privilege can move users into channels the target user normally wouldn&apos;t have permission to enter.</source>
-        <translation>מייצג את הרשאת ההזזה, שמאפשרת להזיז משתמשים אחרים או להעיף אותם מהשרת. כדי להזיז את המשתמש בפועל, יש צורך שלמשתמש המזיז יהיו גישות הזזה גם בערוץ המטרה, או שלמשתמש שהוא מזיז תהיה הרשאה להכנס לערוץ המטרה. משתמש עם הרשאה. משתמש עם ההרשאה הזו יכול להזיז משתמשים לערוצים שהם לא יכולים להכנס אליהם בדרך כלל.</translation>
+        <translation type="vanished">מייצג את הרשאת ההזזה, שמאפשרת להזיז משתמשים אחרים או להעיף אותם מהשרת. כדי להזיז את המשתמש בפועל, יש צורך שלמשתמש המזיז יהיו גישות הזזה גם בערוץ המטרה, או שלמשתמש שהוא מזיז תהיה הרשאה להכנס לערוץ המטרה. משתמש עם הרשאה. משתמש עם ההרשאה הזו יכול להזיז משתמשים לערוצים שהם לא יכולים להכנס אליהם בדרך כלל.</translation>
     </message>
     <message>
         <source>This represents the permission to make sub-channels. The user making the sub-channel will be added to the admin group of the sub-channel.</source>
-        <translation>מייצג את ההרשאה ליצור תת-ערוצים. המשתמש שיצר את תת-הערוץ יתווסף לקבוצת המנהלים של תת הערוץ.</translation>
+        <translation type="vanished">מייצג את ההרשאה ליצור תת-ערוצים. המשתמש שיצר את תת-הערוץ יתווסף לקבוצת המנהלים של תת הערוץ.</translation>
     </message>
     <message>
         <source>This represents the permission to make a temporary subchannel. The user making the sub-channel will be added to the admin group of the sub-channel. Temporary channels are not stored and disappear when the last user leaves.</source>
-        <translation>מייצג את ההרשאה ליצור תת-ערוץ זמני. המשתמש שיצר את תת-הערוץ יתווסף לקבוצת המנהלים שלו. ערוצים זמניים לא נשמרים, והם יימחקו ברגע שהמשתמש האחרון עזב אותם.</translation>
+        <translation type="vanished">מייצג את ההרשאה ליצור תת-ערוץ זמני. המשתמש שיצר את תת-הערוץ יתווסף לקבוצת המנהלים שלו. ערוצים זמניים לא נשמרים, והם יימחקו ברגע שהמשתמש האחרון עזב אותם.</translation>
     </message>
     <message>
         <source>This represents the permission to link channels. Users in linked channels hear each other, as long as the speaking user has the &lt;i&gt;speak&lt;/i&gt; privilege in the channel of the listener. You need the link privilege in both channels to create a link, but just in either channel to remove it.</source>
-        <translation>מייצג את ההרשאה לקשר ערוצים. משתמשים בערוצים מקושרים שומעים זה את זה, כל עוד למשתמש יש הרשאות דיבור בערוץ המקבל. משתמש צריך הרשאת קישור בשני הערוצים שברצונו לקשר כדי לקשר בינהם, אך רק באחד מהם כדי לבטל קישור.</translation>
+        <translation type="vanished">מייצג את ההרשאה לקשר ערוצים. משתמשים בערוצים מקושרים שומעים זה את זה, כל עוד למשתמש יש הרשאות דיבור בערוץ המקבל. משתמש צריך הרשאת קישור בשני הערוצים שברצונו לקשר כדי לקשר בינהם, אך רק באחד מהם כדי לבטל קישור.</translation>
     </message>
     <message>
         <source>This represents the permission to write text messages to other users in this channel.</source>
-        <translation>מייצג את ההרשאה לשלוח הודעות טקסט למשתמשים בערוץ.</translation>
+        <translation type="vanished">מייצג את ההרשאה לשלוח הודעות טקסט למשתמשים בערוץ.</translation>
     </message>
     <message>
         <source>This represents the permission to forcibly remove users from the server.</source>
-        <translation>מייצג את ההרשאה להוצאה בכוח (העפה) של משתמש מהשרת.</translation>
+        <translation type="vanished">מייצג את ההרשאה להוצאה בכוח (העפה) של משתמש מהשרת.</translation>
     </message>
     <message>
         <source>This represents the permission to permanently remove users from the server.</source>
-        <translation>מייצג את ההרשאה לנדות (להשעות) משתמשים מהשרת. </translation>
+        <translation type="vanished">מייצג את ההרשאה לנדות (להשעות) משתמשים מהשרת. </translation>
     </message>
     <message>
         <source>This represents the permission to register and unregister users on the server.</source>
-        <translation>מייצג את ההרשאה לרשום משתמשים ולבטל הרשמה של משתמשים לשרת.</translation>
+        <translation type="vanished">מייצג את ההרשאה לרשום משתמשים ולבטל הרשמה של משתמשים לשרת.</translation>
     </message>
     <message>
         <source>This represents the permission to register oneself on the server.</source>
-        <translation>מייצג את ההרשאה של משתמש לרשום את עצמו לשרת.</translation>
+        <translation type="vanished">מייצג את ההרשאה של משתמש לרשום את עצמו לשרת.</translation>
     </message>
     <message>
         <source>Whisper</source>
-        <translation>לחש</translation>
+        <translation type="vanished">לחש</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>הזז</translation>
+        <translation type="vanished">הזז</translation>
     </message>
     <message>
         <source>Text message</source>
-        <translation>הודעת תמליל</translation>
+        <translation type="vanished">הודעת תמליל</translation>
     </message>
     <message>
         <source>Kick</source>
-        <translation>העפה</translation>
+        <translation type="vanished">העפה</translation>
     </message>
     <message>
         <source>Ban</source>
-        <translation>נידוי</translation>
+        <translation type="vanished">נידוי</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation>רישום</translation>
+        <translation type="vanished">רישום</translation>
     </message>
     <message>
         <source>Register Self</source>
-        <translation>רישום עצמי</translation>
+        <translation type="vanished">רישום עצמי</translation>
     </message>
     <message>
         <source>Write ACL</source>
-        <translation>עריכת הרשאות</translation>
-    </message>
-    <message>
-        <source>This represents the permission to use the listen-feature allowing to listen to a channel without being in it.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Listen</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to reset the comment or avatar of a user.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reset User Content</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">עריכת הרשאות</translation>
     </message>
 </context>
 <context>
@@ -3434,17 +3418,6 @@ Without this option enabled, using Mumble&apos;s global shortcuts in privileged 
     <name>GlobalShortcutEngine</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>GlobalShortcutMac</name>
-    <message>
-        <source>Mouse</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Keyboard</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7191,10 +7164,6 @@ To upgrade these files to their latest versions, click the button below.</source
         <source>Mumble failed to restart itself. Please restart it manually.</source>
         <translation>Mumble failed נכשל להתחיל עצמו מחדש. אנא התחל אותו מחדש ידנית.</translation>
     </message>
-    <message>
-        <source>Mumble is currently connected to a server</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QObject</name>
@@ -7297,18 +7266,10 @@ See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;th
     </message>
     <message>
         <source>Default Device</source>
-        <translation type="unfinished">התקן ברירת מחדל</translation>
+        <translation type="obsolete">התקן ברירת מחדל</translation>
     </message>
     <message>
         <source>This option works best when using built-in microphone and speaker.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied. Please allow Mumble to use the microphone by changing the settings in System Preferences -&gt; Security &amp; Privacy -&gt; Privacy -&gt; Microphone.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied due to system restrictions. You will not be ableto use the microphone in this session.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

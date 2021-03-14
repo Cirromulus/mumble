@@ -2587,147 +2587,131 @@ Jste si jisti, že chcete certifikát nahradit?
     <name>ChanACL</name>
     <message>
         <source>None</source>
-        <translation>Žádné</translation>
+        <translation type="vanished">Žádné</translation>
     </message>
     <message>
         <source>Traverse</source>
-        <translation>Procházet</translation>
+        <translation type="vanished">Procházet</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>Vstup</translation>
+        <translation type="vanished">Vstup</translation>
     </message>
     <message>
         <source>Speak</source>
-        <translation>Mluvit</translation>
+        <translation type="vanished">Mluvit</translation>
     </message>
     <message>
         <source>Mute/Deafen</source>
-        <translation>Ztlumit/Ohlušit</translation>
+        <translation type="vanished">Ztlumit/Ohlušit</translation>
     </message>
     <message>
         <source>Make channel</source>
-        <translation>Vytvořit kanál</translation>
+        <translation type="vanished">Vytvořit kanál</translation>
     </message>
     <message>
         <source>Make temporary</source>
-        <translation>Udělat dočasným</translation>
+        <translation type="vanished">Udělat dočasným</translation>
     </message>
     <message>
         <source>Link channel</source>
-        <translation>Propojit kanál</translation>
+        <translation type="vanished">Propojit kanál</translation>
     </message>
     <message>
         <source>This represents no privileges.</source>
-        <translation>Toto představuje absenci jakýchkoliv výsad.</translation>
+        <translation type="vanished">Toto představuje absenci jakýchkoliv výsad.</translation>
     </message>
     <message>
         <source>This represents total access to the channel, including the ability to change group and ACL information. This privilege implies all other privileges.</source>
-        <translation>Toto představuje úplný přístup do kanálu, zahrnující schopnost měnit skupiny a informace ACL. Tato výsada zahrnuje všechny ostatní.</translation>
+        <translation type="vanished">Toto představuje úplný přístup do kanálu, zahrnující schopnost měnit skupiny a informace ACL. Tato výsada zahrnuje všechny ostatní.</translation>
     </message>
     <message>
         <source>This represents the permission to traverse the channel. If a user is denied this privilege, he will be unable to access this channel and any sub-channels in any way, regardless of other permissions in the sub-channels.</source>
-        <translation>Toto představuje oprávnění procházet kanálem. Pokud je uživateli tato výsada odepřena, nebude moci do těchto kanálu a podkanálů jakýmkoliv způsobem vstoupit, bez ohledu na jiná oprávnění v podkanálech.</translation>
+        <translation type="vanished">Toto představuje oprávnění procházet kanálem. Pokud je uživateli tato výsada odepřena, nebude moci do těchto kanálu a podkanálů jakýmkoliv způsobem vstoupit, bez ohledu na jiná oprávnění v podkanálech.</translation>
     </message>
     <message>
         <source>This represents the permission to join the channel. If you have a hierarchical channel structure, you might want to give everyone Traverse, but restrict Enter in the root of your hierarchy.</source>
-        <translation>Toto představuje oprávnění vstoupit do kanálu. Pokud máte hierarchickou strukturu kanálu, asi byste mohli chtít dát všem Procházet, ale omezit Vstup v kořeni Vaší hierarchie.</translation>
+        <translation type="vanished">Toto představuje oprávnění vstoupit do kanálu. Pokud máte hierarchickou strukturu kanálu, asi byste mohli chtít dát všem Procházet, ale omezit Vstup v kořeni Vaší hierarchie.</translation>
     </message>
     <message>
         <source>This represents the permission to speak in a channel. Users without this privilege will be suppressed by the server (seen as muted), and will be unable to speak until they are unmuted by someone with the appropriate privileges.</source>
-        <translation>Toto představuje oprávnění v kanálu mluvit. Uživatelé bez tohoto oprávnění budou serverem potlačeni (zobrazeni jako ztlumení), a nebudou moci mluvit, dokud je někdo s odpovídajícími výsadami jejich ztlumení nezruší.</translation>
+        <translation type="vanished">Toto představuje oprávnění v kanálu mluvit. Uživatelé bez tohoto oprávnění budou serverem potlačeni (zobrazeni jako ztlumení), a nebudou moci mluvit, dokud je někdo s odpovídajícími výsadami jejich ztlumení nezruší.</translation>
     </message>
     <message>
         <source>This represents the permission to whisper to this channel from the outside. This works exactly like the &lt;i&gt;speak&lt;/i&gt; privilege, but applies to packets spoken with the Whisper key held down. This may be used to broadcast to a hierarchy of channels without linking.</source>
-        <translation>Toto představuje oprávnění do tohoto kanálu šeptat z venčí. Toto funguje stejně jako výsada &lt;i&gt;mluvit&lt;/i&gt;, ale týká se paketů mluvených při držení klávesy Šeptat. Toto může být použito pro vysílání do hierarchie kanálů bez propojení.</translation>
+        <translation type="vanished">Toto představuje oprávnění do tohoto kanálu šeptat z venčí. Toto funguje stejně jako výsada &lt;i&gt;mluvit&lt;/i&gt;, ale týká se paketů mluvených při držení klávesy Šeptat. Toto může být použito pro vysílání do hierarchie kanálů bez propojení.</translation>
     </message>
     <message>
         <source>This represents the permission to mute and deafen other users. Once muted, a user will stay muted until he is unmuted by another privileged user or reconnects to the server.</source>
-        <translation>Toto představuje oprávnění ztlumit a ohlušit jiné uživatele. Jakmile je uživatel ztlumen, zůstane tak, dokud ztlumení není zrušeno jiným uživatelem s výsadami, nebo se znovu nepřipojí k serveru.</translation>
+        <translation type="vanished">Toto představuje oprávnění ztlumit a ohlušit jiné uživatele. Jakmile je uživatel ztlumen, zůstane tak, dokud ztlumení není zrušeno jiným uživatelem s výsadami, nebo se znovu nepřipojí k serveru.</translation>
     </message>
     <message>
         <source>This represents the permission to move a user to another channel or kick him from the server. To actually move the user, either the moving user must have Move privileges in the destination channel, or the user must normally be allowed to enter the channel. Users with this privilege can move users into channels the target user normally wouldn&apos;t have permission to enter.</source>
-        <translation>Toto představuje oprávnění přesunout uživatele na jiný kanál nebo ho vykopnout ze serveru. Abyste uživatele přesunuli, buď musí přesunující uživatel mít oprávnění Přesunout v cílovém kanálu, nebo musí mít uživatel povolení vstoupit běžně do kanálu. Uživatelé s touto výsadou můžou přesunovat uživatele do kanálů, do kterých by přesunovaný uživatel normálně neměl oprávnění vstoupit.</translation>
+        <translation type="vanished">Toto představuje oprávnění přesunout uživatele na jiný kanál nebo ho vykopnout ze serveru. Abyste uživatele přesunuli, buď musí přesunující uživatel mít oprávnění Přesunout v cílovém kanálu, nebo musí mít uživatel povolení vstoupit běžně do kanálu. Uživatelé s touto výsadou můžou přesunovat uživatele do kanálů, do kterých by přesunovaný uživatel normálně neměl oprávnění vstoupit.</translation>
     </message>
     <message>
         <source>This represents the permission to make sub-channels. The user making the sub-channel will be added to the admin group of the sub-channel.</source>
-        <translation>Toto představuje oprávnění vytvářet podkanály. Uživatel, který je vytváří, bude přidán do skupiny administrátorů tohoto podkanálu.</translation>
+        <translation type="vanished">Toto představuje oprávnění vytvářet podkanály. Uživatel, který je vytváří, bude přidán do skupiny administrátorů tohoto podkanálu.</translation>
     </message>
     <message>
         <source>This represents the permission to make a temporary subchannel. The user making the sub-channel will be added to the admin group of the sub-channel. Temporary channels are not stored and disappear when the last user leaves.</source>
-        <translation>Toto představuje oprávnění vytvořit dočasný podkanál. Uživatel, který ho vytváří, bude přidán do skupiny administrátorů tohoto podkanálu. Dočasné kanály nejsou ukládány a zmizí, když poslední uživatel odejde.</translation>
+        <translation type="vanished">Toto představuje oprávnění vytvořit dočasný podkanál. Uživatel, který ho vytváří, bude přidán do skupiny administrátorů tohoto podkanálu. Dočasné kanály nejsou ukládány a zmizí, když poslední uživatel odejde.</translation>
     </message>
     <message>
         <source>This represents the permission to link channels. Users in linked channels hear each other, as long as the speaking user has the &lt;i&gt;speak&lt;/i&gt; privilege in the channel of the listener. You need the link privilege in both channels to create a link, but just in either channel to remove it.</source>
-        <translation>Toto představuje oprávnění propojit kanály. Uživatelé v propojených kanálech se slyší navzájem, pokud mluvící uživatel má výsadu &lt;i&gt;mluvit&lt;/i&gt; v kanálu posluchače. Musíte mít výsadu propojit v obou kanálech pro vytvoření propojení, ale pro odstranění pouze v jednom.</translation>
+        <translation type="vanished">Toto představuje oprávnění propojit kanály. Uživatelé v propojených kanálech se slyší navzájem, pokud mluvící uživatel má výsadu &lt;i&gt;mluvit&lt;/i&gt; v kanálu posluchače. Musíte mít výsadu propojit v obou kanálech pro vytvoření propojení, ale pro odstranění pouze v jednom.</translation>
     </message>
     <message>
         <source>This represents the permission to write text messages to other users in this channel.</source>
-        <translation>Toto představuje oprávnění psát textové zprávy ostatním uživatelům v tomto kanálu.</translation>
+        <translation type="vanished">Toto představuje oprávnění psát textové zprávy ostatním uživatelům v tomto kanálu.</translation>
     </message>
     <message>
         <source>This represents the permission to forcibly remove users from the server.</source>
-        <translation>Toto představuje oprávnění násilím odstranit uživatele ze serveru.</translation>
+        <translation type="vanished">Toto představuje oprávnění násilím odstranit uživatele ze serveru.</translation>
     </message>
     <message>
         <source>This represents the permission to permanently remove users from the server.</source>
-        <translation>Toto představuje oprávnění natrvalo odstranit uživatele ze serveru.</translation>
+        <translation type="vanished">Toto představuje oprávnění natrvalo odstranit uživatele ze serveru.</translation>
     </message>
     <message>
         <source>This represents the permission to register and unregister users on the server.</source>
-        <translation>Toto představuje oprávnění registrovat a odregistrovat uživatele ze serveru.</translation>
+        <translation type="vanished">Toto představuje oprávnění registrovat a odregistrovat uživatele ze serveru.</translation>
     </message>
     <message>
         <source>This represents the permission to register oneself on the server.</source>
-        <translation>Toto představuje oprávnění registrovat sám sebe na server.</translation>
+        <translation type="vanished">Toto představuje oprávnění registrovat sám sebe na server.</translation>
     </message>
     <message>
         <source>Whisper</source>
-        <translation>Šeptat</translation>
+        <translation type="vanished">Šeptat</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>Přesunout</translation>
+        <translation type="vanished">Přesunout</translation>
     </message>
     <message>
         <source>Text message</source>
-        <translation>Textová zpráva</translation>
+        <translation type="vanished">Textová zpráva</translation>
     </message>
     <message>
         <source>Kick</source>
-        <translation>Vykopnout</translation>
+        <translation type="vanished">Vykopnout</translation>
     </message>
     <message>
         <source>Ban</source>
-        <translation>Zakázat</translation>
+        <translation type="vanished">Zakázat</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation>Registrovat Uživatele</translation>
+        <translation type="vanished">Registrovat Uživatele</translation>
     </message>
     <message>
         <source>Register Self</source>
-        <translation>Registrovat Sám Sebe</translation>
+        <translation type="vanished">Registrovat Sám Sebe</translation>
     </message>
     <message>
         <source>Write ACL</source>
-        <translation>Zapsat ACL</translation>
-    </message>
-    <message>
-        <source>This represents the permission to use the listen-feature allowing to listen to a channel without being in it.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Listen</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to reset the comment or avatar of a user.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reset User Content</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">Zapsat ACL</translation>
     </message>
 </context>
 <context>
@@ -3437,17 +3421,6 @@ Without this option enabled, using Mumble&apos;s global shortcuts in privileged 
     <name>GlobalShortcutEngine</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>GlobalShortcutMac</name>
-    <message>
-        <source>Mouse</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Keyboard</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7197,10 +7170,6 @@ Pro aktualizaci těchto souborů na jejich poslední verzi, klikněte na tlačí
         <source>Mumble failed to restart itself. Please restart it manually.</source>
         <translation>Mumble se nemohl restartovat. Prosím restartujte ho ručně.</translation>
     </message>
-    <message>
-        <source>Mumble is currently connected to a server</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QObject</name>
@@ -7303,18 +7272,10 @@ See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;th
     </message>
     <message>
         <source>Default Device</source>
-        <translation type="unfinished">Výchozí zařízení</translation>
+        <translation type="obsolete">Výchozí zařízení</translation>
     </message>
     <message>
         <source>This option works best when using built-in microphone and speaker.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied. Please allow Mumble to use the microphone by changing the settings in System Preferences -&gt; Security &amp; Privacy -&gt; Privacy -&gt; Microphone.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied due to system restrictions. You will not be ableto use the microphone in this session.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

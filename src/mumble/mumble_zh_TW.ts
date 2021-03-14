@@ -2562,147 +2562,127 @@ Are you sure you wish to replace your certificate?
     <name>ChanACL</name>
     <message>
         <source>None</source>
-        <translation>無</translation>
+        <translation type="vanished">無</translation>
     </message>
     <message>
         <source>Traverse</source>
-        <translation>路過</translation>
+        <translation type="vanished">路過</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>進入</translation>
+        <translation type="vanished">進入</translation>
     </message>
     <message>
         <source>Speak</source>
-        <translation>發言</translation>
+        <translation type="vanished">發言</translation>
     </message>
     <message>
         <source>Mute/Deafen</source>
-        <translation>關閉麥克風/關閉喇叭</translation>
+        <translation type="vanished">關閉麥克風/關閉喇叭</translation>
     </message>
     <message>
         <source>Make channel</source>
-        <translation>建立頻道</translation>
+        <translation type="vanished">建立頻道</translation>
     </message>
     <message>
         <source>Make temporary</source>
-        <translation>建立臨時頻道</translation>
+        <translation type="vanished">建立臨時頻道</translation>
     </message>
     <message>
         <source>Link channel</source>
-        <translation>連接頻道</translation>
+        <translation type="vanished">連接頻道</translation>
     </message>
     <message>
         <source>This represents no privileges.</source>
-        <translation>這代表無特權。</translation>
+        <translation type="vanished">這代表無特權。</translation>
     </message>
     <message>
         <source>This represents total access to the channel, including the ability to change group and ACL information. This privilege implies all other privileges.</source>
-        <translation>允許完整控制頻道，包含變更群組與存取控制表資訊。本權限包含所有其他權限。</translation>
+        <translation type="vanished">允許完整控制頻道，包含變更群組與存取控制表資訊。本權限包含所有其他權限。</translation>
     </message>
     <message>
         <source>This represents the permission to traverse the channel. If a user is denied this privilege, he will be unable to access this channel and any sub-channels in any way, regardless of other permissions in the sub-channels.</source>
-        <translation>允許縱覽頻道。如果一個使用者缺乏此權限，即使他擁有子頻道的權限，也無法進入此頻道以及下屬之子頻道。</translation>
+        <translation type="vanished">允許縱覽頻道。如果一個使用者缺乏此權限，即使他擁有子頻道的權限，也無法進入此頻道以及下屬之子頻道。</translation>
     </message>
     <message>
         <source>This represents the permission to join the channel. If you have a hierarchical channel structure, you might want to give everyone Traverse, but restrict Enter in the root of your hierarchy.</source>
-        <translation>允許進入頻道。如果您擁有較高層次的頻道，您可能會讓使用者路過，但限制他們進入你的根頻道。</translation>
+        <translation type="vanished">允許進入頻道。如果您擁有較高層次的頻道，您可能會讓使用者路過，但限制他們進入你的根頻道。</translation>
     </message>
     <message>
         <source>This represents the permission to speak in a channel. Users without this privilege will be suppressed by the server (seen as muted), and will be unable to speak until they are unmuted by someone with the appropriate privileges.</source>
-        <translation>允許在頻道發言。使用者缺乏此權限將被伺服器限制發言(看起來像關閉麥克風的)，直到具有適當權限的人取消關閉麥克風。</translation>
-    </message>
-    <message>
-        <source>This represents the permission to whisper to this channel from the outside. This works exactly like the &lt;i&gt;speak&lt;/i&gt; privilege, but applies to packets spoken with the Whisper key held down. This may be used to broadcast to a hierarchy of channels without linking.</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">允許在頻道發言。使用者缺乏此權限將被伺服器限制發言(看起來像關閉麥克風的)，直到具有適當權限的人取消關閉麥克風。</translation>
     </message>
     <message>
         <source>This represents the permission to mute and deafen other users. Once muted, a user will stay muted until he is unmuted by another privileged user or reconnects to the server.</source>
-        <translation>允許使用者將其他人設為關閉麥克風或關閉喇叭。一旦被設為關閉麥克風，將一直保持關閉麥克風狀態到被其他有權限的使用者取消，或重新連線為止。</translation>
+        <translation type="vanished">允許使用者將其他人設為關閉麥克風或關閉喇叭。一旦被設為關閉麥克風，將一直保持關閉麥克風狀態到被其他有權限的使用者取消，或重新連線為止。</translation>
     </message>
     <message>
         <source>This represents the permission to move a user to another channel or kick him from the server. To actually move the user, either the moving user must have Move privileges in the destination channel, or the user must normally be allowed to enter the channel. Users with this privilege can move users into channels the target user normally wouldn&apos;t have permission to enter.</source>
-        <translation>允許使用者將其他人驅逐到其他頻道或踢出這台伺服器。要驅逐使用者需要擁有目標頻道的移動權限，被驅逐者要有進入目標頻道的權限。擁有此權限的使用者可以將沒有進入某頻道權限的人拉入該頻道。</translation>
+        <translation type="vanished">允許使用者將其他人驅逐到其他頻道或踢出這台伺服器。要驅逐使用者需要擁有目標頻道的移動權限，被驅逐者要有進入目標頻道的權限。擁有此權限的使用者可以將沒有進入某頻道權限的人拉入該頻道。</translation>
     </message>
     <message>
         <source>This represents the permission to make sub-channels. The user making the sub-channel will be added to the admin group of the sub-channel.</source>
-        <translation>允許建立一個子頻道。使用者可以建立一個子頻道並被加入子頻道管理員群組。</translation>
+        <translation type="vanished">允許建立一個子頻道。使用者可以建立一個子頻道並被加入子頻道管理員群組。</translation>
     </message>
     <message>
         <source>This represents the permission to make a temporary subchannel. The user making the sub-channel will be added to the admin group of the sub-channel. Temporary channels are not stored and disappear when the last user leaves.</source>
-        <translation>允許使用者建立一個臨時的子頻道。使用者可以建立一個臨時子頻道並被加入子頻道管理員群組。臨時子頻道不會永久存在，當最後一個使用者離開時，臨時子頻道將會消失。</translation>
+        <translation type="vanished">允許使用者建立一個臨時的子頻道。使用者可以建立一個臨時子頻道並被加入子頻道管理員群組。臨時子頻道不會永久存在，當最後一個使用者離開時，臨時子頻道將會消失。</translation>
     </message>
     <message>
         <source>This represents the permission to link channels. Users in linked channels hear each other, as long as the speaking user has the &lt;i&gt;speak&lt;/i&gt; privilege in the channel of the listener. You need the link privilege in both channels to create a link, but just in either channel to remove it.</source>
-        <translation>允許連結頻道。當發言的使用者擁有&lt;i&gt;發言&lt;/i&gt;的權限時，被連接的頻道可以聽到彼此的發言，你需要同時擁有兩個頻道的連結權限，但僅擁有一方時可移除連結。</translation>
+        <translation type="vanished">允許連結頻道。當發言的使用者擁有&lt;i&gt;發言&lt;/i&gt;的權限時，被連接的頻道可以聽到彼此的發言，你需要同時擁有兩個頻道的連結權限，但僅擁有一方時可移除連結。</translation>
     </message>
     <message>
         <source>This represents the permission to write text messages to other users in this channel.</source>
-        <translation>允許發送文字訊息給頻道內其他使用者。</translation>
+        <translation type="vanished">允許發送文字訊息給頻道內其他使用者。</translation>
     </message>
     <message>
         <source>This represents the permission to forcibly remove users from the server.</source>
-        <translation>允許強制使用者離開伺服器。</translation>
+        <translation type="vanished">允許強制使用者離開伺服器。</translation>
     </message>
     <message>
         <source>This represents the permission to permanently remove users from the server.</source>
-        <translation>允許永久禁止使用者進入伺服器。</translation>
+        <translation type="vanished">允許永久禁止使用者進入伺服器。</translation>
     </message>
     <message>
         <source>This represents the permission to register and unregister users on the server.</source>
-        <translation>允許使用者在伺服器上註冊與移除註冊。</translation>
+        <translation type="vanished">允許使用者在伺服器上註冊與移除註冊。</translation>
     </message>
     <message>
         <source>This represents the permission to register oneself on the server.</source>
-        <translation>允許使用者在伺服器上註冊。</translation>
+        <translation type="vanished">允許使用者在伺服器上註冊。</translation>
     </message>
     <message>
         <source>Whisper</source>
-        <translation>悄悄話</translation>
+        <translation type="vanished">悄悄話</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>移動</translation>
+        <translation type="vanished">移動</translation>
     </message>
     <message>
         <source>Text message</source>
-        <translation>文字訊息</translation>
+        <translation type="vanished">文字訊息</translation>
     </message>
     <message>
         <source>Kick</source>
-        <translation>剔除</translation>
+        <translation type="vanished">剔除</translation>
     </message>
     <message>
         <source>Ban</source>
-        <translation>封鎖</translation>
+        <translation type="vanished">封鎖</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation>註冊使用者</translation>
+        <translation type="vanished">註冊使用者</translation>
     </message>
     <message>
         <source>Register Self</source>
-        <translation>註冊自己</translation>
+        <translation type="vanished">註冊自己</translation>
     </message>
     <message>
         <source>Write ACL</source>
-        <translation>建立存取控制表</translation>
-    </message>
-    <message>
-        <source>This represents the permission to use the listen-feature allowing to listen to a channel without being in it.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Listen</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This represents the permission to reset the comment or avatar of a user.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reset User Content</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">建立存取控制表</translation>
     </message>
 </context>
 <context>
@@ -3412,17 +3392,6 @@ Without this option enabled, using Mumble&apos;s global shortcuts in privileged 
     <name>GlobalShortcutEngine</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>GlobalShortcutMac</name>
-    <message>
-        <source>Mouse</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Keyboard</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7163,10 +7132,6 @@ To upgrade these files to their latest versions, click the button below.</source
         <source>Mumble failed to restart itself. Please restart it manually.</source>
         <translation>Mumble 自我重新啟動失敗。請手動重啟。</translation>
     </message>
-    <message>
-        <source>Mumble is currently connected to a server</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QObject</name>
@@ -7269,18 +7234,10 @@ See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;th
     </message>
     <message>
         <source>Default Device</source>
-        <translation type="unfinished">預設裝置</translation>
+        <translation type="obsolete">預設裝置</translation>
     </message>
     <message>
         <source>This option works best when using built-in microphone and speaker.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied. Please allow Mumble to use the microphone by changing the settings in System Preferences -&gt; Security &amp; Privacy -&gt; Privacy -&gt; Microphone.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Access to the microphone was denied due to system restrictions. You will not be ableto use the microphone in this session.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

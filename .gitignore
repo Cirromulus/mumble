@@ -3,6 +3,7 @@ Makefile
 *.Release
 debug/
 release/
+build*/
 asio/
 local/
 indent.sh
@@ -38,6 +39,7 @@ src/mumble/mumble_qt_auto.qrc
 *_plugin_import.cpp
 target_wrapper.bat
 target_wrapper.sh
+*.ts
 doxygen/
 .qmake.cache
 .qmake.stash

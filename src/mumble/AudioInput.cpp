@@ -543,7 +543,7 @@ void AudioInput::initializeMixer() {
 	if (iMicFreq != iSampleRate)
 		srsMic = speex_resampler_init(1, iMicFreq, iSampleRate, 3, &err);
 
-	iMicLength = (iFrameSize * iMicFreq) / iSampleRate;
+	iMicLength = (useInputChannels * iFrameSize * iMicFreq) / iSampleRate;
 
 	pfMicInput = new float[iMicLength];
 
@@ -587,7 +587,7 @@ void AudioInput::addMic(const void *data, unsigned int nsamp) {
 		const unsigned int left = qMin(nsamp, iMicLength - iMicFilled);
 
 		// Append mix into pfMicInput frame buffer (converts 16bit pcm->float if necessary)
-		// TODO: HEy here FIXME
+		// In stereo case, this produces twice the samples
 		// output, input, size
 		imfMic(pfMicInput + iMicFilled, data, left, iMicChannels, uiMicChannelMask);
 
@@ -611,18 +611,19 @@ void AudioInput::addMic(const void *data, unsigned int nsamp) {
 			float *ptr      = srsMic ? pfOutput : pfMicInput;
 
 			if (srsMic) {
-				spx_uint32_t inlen  = iMicLength;
-				spx_uint32_t outlen = iFrameSize;
+				spx_uint32_t inlen  = useInputChannels * iMicLength;
+				spx_uint32_t outlen = useInputChannels * iFrameSize;
 				speex_resampler_process_float(srsMic, 0, pfMicInput, &inlen, pfOutput, &outlen);
 			}
 
 			// If echo cancellation is enabled the pointer ends up in the resynchronizer queue
 			// and may need to outlive this function's frame
-			short *psMic = iEchoChannels > 0 ? new short[iFrameSize] : (short *) alloca(iFrameSize * sizeof(short));
+			short *psMic = iEchoChannels > 0 ? new short[useInputChannels * iFrameSize]
+											 : (short *) alloca(useInputChannels * iFrameSize * sizeof(short));
 
 			// Convert float to 16bit PCM
 			const float mul = 32768.f;
-			for (int j = 0; j < iFrameSize; ++j)
+			for (int j = 0; j < useInputChannels * iFrameSize; ++j)
 				psMic[j] = static_cast< short >(qBound(-32768.f, (ptr[j] * mul), 32767.f));
 
 			// If we have echo cancellation enabled...
@@ -998,13 +999,15 @@ void AudioInput::encodeAudioFrame(AudioChunk chunk) {
 
 	sum = 1.0f;
 	max = 1;
-	for (i = 0; i < iFrameSize; i++) {
+	// Only use left channel if stereo
+	for (i = 0; i < iFrameSize; i += useInputChannels) {
 		sum += static_cast< float >(chunk.mic[i] * chunk.mic[i]);
 		max = std::max(static_cast< short >(abs(chunk.mic[i])), max);
 	}
 	dPeakMic = qMax(20.0f * log10f(sqrtf(sum / static_cast< float >(iFrameSize)) / 32768.0f), -96.0f);
 	dMaxMic  = max;
 
+	// echo cancellation
 	if (chunk.speaker && (iEchoChannels > 0)) {
 		sum = 1.0f;
 		for (i = 0; i < iEchoFrameSize; ++i) {
@@ -1025,6 +1028,7 @@ void AudioInput::encodeAudioFrame(AudioChunk chunk) {
 		speex_preprocess_ctl(sppPreprocess, SPEEX_PREPROCESS_SET_NOISE_SUPPRESS, &iArg);
 	}
 
+	// TODO: Make shure echo cancellation is applied on each channel
 	short psClean[iFrameSize];
 	if (sesEcho && chunk.speaker) {
 		speex_echo_cancellation(sesEcho, chunk.mic, chunk.speaker, psClean);
@@ -1051,18 +1055,19 @@ void AudioInput::encodeAudioFrame(AudioChunk chunk) {
 
 	speex_preprocess_run(sppPreprocess, psSource);
 
+	// This calculates the sum of both channels, if available
 	sum = 1.0f;
-	for (i = 0; i < iFrameSize; i++)
+	for (i = 0; i < iFrameSize; i += useInputChannels)
 		sum += static_cast< float >(psSource[i] * psSource[i]);
 	float micLevel = sqrtf(sum / static_cast< float >(iFrameSize));
 	dPeakSignal    = qMax(20.0f * log10f(micLevel / 32768.0f), -96.0f);
 
 	if (bDebugDumpInput) {
-		outMic.write(reinterpret_cast< const char * >(chunk.mic), iFrameSize * sizeof(short));
+		outMic.write(reinterpret_cast< const char * >(chunk.mic), useInputChannels * iFrameSize * sizeof(short));
 		if (chunk.speaker) {
 			outSpeaker.write(reinterpret_cast< const char * >(chunk.speaker), iEchoFrameSize * sizeof(short));
 		}
-		outProcessed.write(reinterpret_cast< const char * >(psSource), iFrameSize * sizeof(short));
+		outProcessed.write(reinterpret_cast< const char * >(psSource), useInputChannels * iFrameSize * sizeof(short));
 	}
 
 	spx_int32_t prob = 0;
@@ -1127,6 +1132,7 @@ void AudioInput::encodeAudioFrame(AudioChunk chunk) {
 			p->setTalking(Settings::Shouting);
 	}
 
+	// Notify that recording starts & stops
 	if (Global::get().s.bTxAudioCue && Global::get().uiSession != 0) {
 		AudioOutputPtr ao = Global::get().ao;
 		if (bIsSpeech && !bPreviousVoice && ao)
@@ -1174,7 +1180,8 @@ void AudioInput::encodeAudioFrame(AudioChunk chunk) {
 	tIdle.restart();
 
 	EncodingOutputBuffer buffer;
-	Q_ASSERT(buffer.size() >= static_cast< size_t >(iAudioQuality / 100 * iAudioFrames / 8));
+	//FIXME: is one 'iAudioFrames' a pair of samples in Stereo case?
+	Q_ASSERT(buffer.size() >= static_cast< size_t >(iAudioQuality / 100 * useInputChannels * iAudioFrames / 8));
 
 	int len = 0;
 
@@ -1182,6 +1189,7 @@ void AudioInput::encodeAudioFrame(AudioChunk chunk) {
 	if (!selectCodec())
 		return;
 
+	// TODO: CELT for Stereo not supported yed
 	if (umtType == MessageHandler::UDPVoiceCELTAlpha || umtType == MessageHandler::UDPVoiceCELTBeta) {
 		len = encodeCELTFrame(psSource, buffer);
 		if (len <= 0) {
@@ -1192,7 +1200,7 @@ void AudioInput::encodeAudioFrame(AudioChunk chunk) {
 		++iBufferedFrames;
 	} else if (umtType == MessageHandler::UDPVoiceOpus) {
 		encoded = false;
-		opusBuffer.insert(opusBuffer.end(), psSource, psSource + iFrameSize);
+		opusBuffer.insert(opusBuffer.end(), psSource, psSource + useInputChannels * iFrameSize);
 		++iBufferedFrames;
 
 		if (!bIsSpeech || iBufferedFrames >= iAudioFrames) {
@@ -1202,18 +1210,18 @@ void AudioInput::encodeAudioFrame(AudioChunk chunk) {
 				// a codec configuration switch by suddenly using a wildly different
 				// framecount per packet.
 				const int missingFrames = iAudioFrames - iBufferedFrames;
-				opusBuffer.insert(opusBuffer.end(), iFrameSize * missingFrames, 0);
+				opusBuffer.insert(opusBuffer.end(), useInputChannels * iFrameSize * missingFrames, 0);
 				iBufferedFrames += missingFrames;
 				iFrameCounter += missingFrames;
 			}
 
 			Q_ASSERT(iBufferedFrames == iAudioFrames);
 
-			len = encodeOpusFrame(&opusBuffer[0], useInputChannels * iBufferedFrames * iFrameSize, buffer);
+			len = encodeOpusFrame(&opusBuffer[0], iBufferedFrames * useInputChannels * iFrameSize, buffer);
 			opusBuffer.clear();
 			if (len <= 0) {
 				iBitrate = 0;
-				qWarning() << "encodeOpusFrame failed" << iBufferedFrames << iFrameSize << len;
+				qWarning() << "encodeOpusFrame failed" << iBufferedFrames << useInputChannels * iFrameSize << len;
 				iBufferedFrames = 0; // These are lost. Make sure not to mess up our sequence counter next flushCheck.
 				return;
 			}
